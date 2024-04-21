@@ -31,6 +31,10 @@
   display: block;
 }
 
+.header-navigation a:is(:hover, :active, :focus) {
+  color: var(--color-yellow-light);
+}
+
 .header-navigation .buy-ticket {
   padding: 0.5em 1em;
   color: var(--color-purple-dark);
@@ -41,4 +45,5 @@
 
 .header-navigation .buy-ticket:is(:hover, :active, :focus) {
   background-color: var(--color-butter);
+  color: var(--color-purple-dark);
 }
