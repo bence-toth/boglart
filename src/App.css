@@ -1,0 +1,44 @@
+.header {
+  background-color: var(--color-purple-dark);
+  padding: 1em;
+}
+
+.header-inner-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header-logo {
+  height: 3em;
+}
+
+.header-navigation ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+
+.header-navigation a {
+  padding: 0.5em;
+  font-family: var(--font-sans-serif);
+  color: var(--color-butter);
+  text-transform: uppercase;
+  text-decoration: none;
+  display: block;
+}
+
+.header-navigation .buy-ticket {
+  padding: 0.5em 1em;
+  color: var(--color-purple-dark);
+  background-color: var(--color-yellow-light);
+  font-family: var(--font-sans-serif);
+  font-weight: bold;
+}
+
+.header-navigation .buy-ticket:is(:hover, :active, :focus) {
+  background-color: var(--color-butter);
+}

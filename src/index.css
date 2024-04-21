@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Rajdhani:wght@300;400;500;600;700&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -8,4 +10,22 @@ html,
 body,
 #root {
   height: 100%;
+}
+
+body {
+  font-size: 18px;
+  background-color: var(--color-butter-light);
+  font-family: var(--font-serif);
+
+  --font-serif: "Libre Baskerville", serif;
+  --font-sans-serif: "Rajdhani", sans-serif;
+  --color-purple: #25213e;
+  --color-purple-light: #362f5e;
+  --color-purple-dark: #161226;
+  --color-butter: #ffdeaa;
+  --color-butter-light: #fbeed0;
+  --color-yellow: #d98d00;
+  --color-yellow-light: #fdcc00;
+  --color-yellow-dark: #b16500;
+  --color-red: #ff2f38;
 }
