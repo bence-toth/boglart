@@ -1,4 +1,7 @@
-import { ticketPurchaseLink } from "./constants";
+import { AiFillFacebook as FacebookIcon } from "react-icons/ai";
+import { AiFillInstagram as InstragramIcon } from "react-icons/ai";
+
+import { ticketPurchaseLink, facebookLink, instagramLink } from "./constants";
 
 import "./App.css";
 
@@ -16,6 +19,26 @@ const App = () => (
             <li>
               <a href={ticketPurchaseLink} target="_blank" rel="noreferrer">
                 English
+              </a>
+            </li>
+            <li>
+              <a
+                className="social"
+                href={facebookLink}
+                target="_blank"
+                rel="noreferrer"
+              >
+                <FacebookIcon />
+              </a>
+            </li>
+            <li>
+              <a
+                className="social"
+                href={instagramLink}
+                target="_blank"
+                rel="noreferrer"
+              >
+                <InstragramIcon />
               </a>
             </li>
             <li>
