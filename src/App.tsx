@@ -18,6 +18,7 @@ const isProtected = true;
 // TODO: Add social meta
 // TODO: Supporters component
 // TODO: Implement language switcher
+// TODO: Remove gh-pages "homepage" field from package.json
 
 const App = () => {
   const [password, setPassword] = useState("");
