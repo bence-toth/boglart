@@ -7,6 +7,9 @@ import Logo from "./logo.png";
 
 import "./Header.css";
 
+// TODO: Replace logo
+// TODO: Translate
+
 const Header = () => (
   <header className="header">
     <div className="header-inner-wrapper">

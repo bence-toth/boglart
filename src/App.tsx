@@ -6,11 +6,18 @@ import Programme from "./Programme";
 import About from "./About";
 import FAQ from "./FAQ";
 import Map from "./Map";
+import Supporters from "./Supporters";
 import Footer from "./Footer";
 
 import "./App.css";
 
 const isProtected = true;
+
+// TODO: Update favicon
+// TODO: Add meta description
+// TODO: Add social meta
+// TODO: Supporters component
+// TODO: Implement language switcher
 
 const App = () => {
   const [password, setPassword] = useState("");
@@ -35,9 +42,7 @@ const App = () => {
         <About />
         <FAQ />
         <Map />
-        <section className="section-wrapper">
-          <h2>Támogatóink</h2>
-        </section>
+        <Supporters />
         <Footer />
       </main>
     </div>

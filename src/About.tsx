@@ -1,3 +1,5 @@
+// TODO: Translate
+
 const About = () => (
   <section className="section-wrapper dark">
     <div className="section-inner-wrapper">

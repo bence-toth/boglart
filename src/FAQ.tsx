@@ -1,5 +1,8 @@
 import "./FAQ.css";
 
+// TODO: Create structure
+// TODO: Translate
+
 const FAQ = () => (
   <section className="section-wrapper">
     <div className="section-inner-wrapper">

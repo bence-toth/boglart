@@ -7,6 +7,10 @@ import Logo from "./logo.png";
 
 import "./Footer.css";
 
+// TODO: Add missing links
+// TODO: Replace logo
+// TODO: Translate
+
 const Footer = () => (
   <footer className="footer">
     <div className="footer-inner-wrapper">

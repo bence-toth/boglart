@@ -4,6 +4,9 @@ import { programme } from "./constants";
 
 import "./Programme.css";
 
+// TODO: Translate
+// TODO: Format dates and times
+
 const Programme = () => (
   <section className="section-wrapper">
     <div className="section-inner-wrapper schedule-wrapper">

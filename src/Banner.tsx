@@ -4,6 +4,9 @@ import BannerImage from "./banner.jpg";
 
 import "./Banner.css";
 
+// TODO: Add mobile banner
+// TODO: Translate
+
 const Banner = () => (
   <>
     <section className="banner">
