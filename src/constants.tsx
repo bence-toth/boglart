@@ -131,3 +131,21 @@ export const programme = [
     ],
   },
 ];
+
+export const frequentlyAskedQuestions = [
+  {
+    question: "Some question I have",
+    answer:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem sequi iusto numquam. Dolorem provident debitis cum ad? Eveniet quis, commodi quae nesciunt tenetur blanditiis, laudantium sed nulla consequatur quam delectus.",
+  },
+  {
+    question: "How about this other question?",
+    answer:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum repellat, adipisci necessitatibus illo veritatis eaque cupiditate et similique odit expedita aliquam, id molestias iste magni! Earum pariatur quidem laboriosam dignissimos.",
+  },
+  {
+    question: "This is the last question. Pinky promise?",
+    answer:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam voluptatibus quod a, itaque tempore, porro rem autem impedit commodi doloremque quaerat quo sequi distinctio veritatis odit. Maxime possimus nemo voluptas?",
+  },
+];
