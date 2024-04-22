@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/boglart/static/css/main.f51b2566.css",
-    "main.js": "/boglart/static/js/main.68790450.js",
+    "main.js": "/boglart/static/js/main.8392efa7.js",
     "static/js/453.6a718b3e.chunk.js": "/boglart/static/js/453.6a718b3e.chunk.js",
     "static/media/banner.jpg": "/boglart/static/media/banner.6611628389f8d8997f8b.jpg",
     "static/media/logo.png": "/boglart/static/media/logo.db3168a2949be374df8d.png",
@@ -11,11 +11,11 @@
     "static/media/supporter-halmos-bela-program.png": "/boglart/static/media/supporter-halmos-bela-program.f936b69b2eb90c81ca81.png",
     "index.html": "/boglart/index.html",
     "main.f51b2566.css.map": "/boglart/static/css/main.f51b2566.css.map",
-    "main.68790450.js.map": "/boglart/static/js/main.68790450.js.map",
+    "main.8392efa7.js.map": "/boglart/static/js/main.8392efa7.js.map",
     "453.6a718b3e.chunk.js.map": "/boglart/static/js/453.6a718b3e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f51b2566.css",
-    "static/js/main.68790450.js"
+    "static/js/main.8392efa7.js"
   ]
 }
