@@ -30,6 +30,12 @@ section p {
   line-height: 1.75;
 }
 
+@media (width < 720px) {
+  section p {
+    font-size: 14px;
+  }
+}
+
 .section-wrapper {
   padding: 1em;
   padding-bottom: 3em;
