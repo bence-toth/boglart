@@ -1,0 +1,36 @@
+.buy-ticket-wrapper a.buy-ticket {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1em;
+  color: var(--color-purple-dark);
+  background-color: var(--color-yellow-light);
+  font-family: var(--font-sans-serif);
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.header-navigation a.buy-ticket:is(:hover, :active, :focus) {
+  background-color: var(--color-butter);
+  color: var(--color-purple-dark);
+}
+
+@media (width >= 640px) {
+  .buy-ticket-wrapper a.buy-ticket {
+    display: none;
+  }
+}
+
+.buy-ticket-wrapper a.buy-ticket:is(:hover, :active, :focus) {
+  background-color: var(--color-butter);
+  color: var(--color-purple-dark);
+}
+
+.banner {
+  display: flex;
+}
+
+.banner img {
+  width: 100%;
+}

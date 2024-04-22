@@ -1,0 +1,79 @@
+.schedule-wrapper {
+  --time-column-width: 100px;
+}
+
+.schedule-wrapper table {
+  width: 100%;
+  font-family: var(--font-sans-serif);
+  border-collapse: collapse;
+}
+
+.schedule-wrapper table.desktop-schedule {
+  table-layout: fixed;
+}
+
+.schedule-wrapper table.desktop-schedule tr:nth-child(even),
+.schedule-wrapper table.mobile-schedule tr:nth-child(odd) {
+  background-color: var(--color-butter);
+}
+
+.schedule-wrapper table th,
+.schedule-wrapper table td {
+  width: calc((100% - var(--time-column-width)) / 4);
+}
+
+.schedule-wrapper table thead th {
+  padding: 0.5em;
+  background-color: var(--color-purple-dark);
+  color: var(--color-butter-light);
+  text-align: center;
+}
+
+.schedule-wrapper table tbody th {
+  padding: 0.5em;
+  text-align: center;
+}
+
+.schedule-wrapper table .header-row th {
+  padding: 0.5em;
+  background-color: var(--color-purple-dark);
+  color: var(--color-butter-light);
+  text-align: center;
+}
+
+@media (width < 720px) {
+  .schedule-wrapper table .header-row th {
+    font-size: 24px;
+  }
+}
+
+.schedule-wrapper table tbody td {
+  padding: 1em;
+  text-align: center;
+}
+
+.schedule-wrapper table.mobile-schedule th,
+.schedule-wrapper table.mobile-schedule td {
+  width: calc(100% - var(--time-column-width));
+}
+
+.schedule-wrapper table th:first-child,
+.schedule-wrapper table td:first-child {
+  width: var(--time-column-width);
+}
+
+.schedule-wrapper table tbody td .act {
+  font-weight: bold;
+}
+
+@media (width >= 920px) {
+  .schedule-wrapper table.mobile-schedule {
+    display: none;
+  }
+}
+
+@media (width < 920px) {
+  .schedule-wrapper table.desktop-schedule {
+    display: none;
+  }
+}

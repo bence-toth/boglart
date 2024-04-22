@@ -1,0 +1,61 @@
+.header {
+  background-color: var(--color-purple-dark);
+  padding: 1em;
+}
+
+.header-inner-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header-logo {
+  height: 3em;
+}
+
+@media (width < 640px) {
+  .header-logo {
+    height: 2em;
+  }
+}
+
+.header-navigation ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+
+.header-navigation a {
+  padding: 0.5em;
+  font-family: var(--font-sans-serif);
+  color: var(--color-butter);
+  text-transform: uppercase;
+  text-decoration: none;
+  display: flex;
+}
+
+.header-navigation a:is(:hover, :active, :focus) {
+  color: var(--color-yellow-light);
+}
+
+.header-navigation a.social {
+  font-size: 1.5em;
+  padding: 0.25em;
+}
+
+.header-navigation a.buy-ticket {
+  padding: 0.5em 1em;
+  color: var(--color-purple-dark);
+  background-color: var(--color-yellow-light);
+  font-family: var(--font-sans-serif);
+  font-weight: bold;
+}
+
+@media (width < 640px) {
+  .header-navigation li.hide-on-mobile {
+    display: none;
+  }
+}
