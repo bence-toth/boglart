@@ -26,13 +26,13 @@ const Supporters = () => (
     <h2>Támogatóink</h2>
     <nav className="supporters">
       <ul>
-        {supporters.slice(0, 3).map((supporter) => (
-          <Supporter supporter={supporter} />
+        {supporters.slice(0, 3).map((supporter, supporterIndex) => (
+          <Supporter key={supporterIndex} supporter={supporter} />
         ))}
       </ul>
       <ul>
-        {supporters.slice(3).map((supporter) => (
-          <Supporter supporter={supporter} />
+        {supporters.slice(3).map((supporter, supporterIndex) => (
+          <Supporter key={supporterIndex} supporter={supporter} />
         ))}
       </ul>
     </nav>
