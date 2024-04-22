@@ -16,7 +16,6 @@ const isProtected = true;
 // TODO: Update favicon
 // TODO: Add meta description
 // TODO: Add social meta
-// TODO: Supporters component
 // TODO: Implement language switcher
 // TODO: Remove gh-pages "homepage" field from package.json
 

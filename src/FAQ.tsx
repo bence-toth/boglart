@@ -3,7 +3,6 @@ import { frequentlyAskedQuestions } from "./constants";
 
 import "./FAQ.css";
 
-// TODO: Create structure
 // TODO: Translate
 
 const FAQ = () => (

@@ -3,7 +3,6 @@ import { supporters } from "./constants";
 import "./Supporters.css";
 
 // TODO: Translate
-// TODO: Create structure
 
 interface SupporterProps {
   supporter: {
