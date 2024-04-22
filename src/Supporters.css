@@ -1,0 +1,36 @@
+.supporters ul {
+  display: block;
+  gap: 1em;
+  list-style-type: none;
+  text-align: center;
+}
+
+.supporters li {
+  display: inline-flex;
+  margin-block: 1.5em;
+}
+
+.supporters a {
+  display: block;
+}
+
+@media (width < 1200px) {
+  .supporters a img {
+    height: 80px;
+  }
+}
+
+@media (width < 800px) {
+  .supporters {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+  }
+
+  .supporters ul {
+    align-items: center;
+    display: flex;
+    gap: 1em;
+    flex-direction: column;
+  }
+}

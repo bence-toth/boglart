@@ -2,6 +2,12 @@
 
 // TODO: Translate
 
+import BabelCampLogo from "./supporter-babel-camp.png";
+import GobeLogo from "./supporter-gobe.png";
+import GyongyviragosLogo from "./supporter-gyongyviragos-folkmuhely.png";
+import HalmosBelaProgram from "./supporter-halmos-bela-program.png";
+import NemzetiKulturalisAlap from "./supporter-nemzeti-kulturalis-alap.png";
+
 export const ticketPurchaseLink =
   "https://tixa.hu/V_Boglart_Fesztival_20240828_Balatonboglar";
 
@@ -147,5 +153,34 @@ export const frequentlyAskedQuestions = [
     question: "This is the last question. Pinky promise?",
     answer:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam voluptatibus quod a, itaque tempore, porro rem autem impedit commodi doloremque quaerat quo sequi distinctio veritatis odit. Maxime possimus nemo voluptas?",
+  },
+];
+
+// TODO: Add URLs
+export const supporters = [
+  {
+    name: "Halmos Béla Program",
+    logo: HalmosBelaProgram,
+    url: "",
+  },
+  {
+    name: "Góbé",
+    logo: GobeLogo,
+    url: "",
+  },
+  {
+    name: "Nemzeti Kulturális Alap",
+    logo: NemzetiKulturalisAlap,
+    url: "",
+  },
+  {
+    name: "Babel Camp",
+    logo: BabelCampLogo,
+    url: "",
+  },
+  {
+    name: "Gyöngyvirágos Folkműhely",
+    logo: GyongyviragosLogo,
+    url: "",
   },
 ];
