@@ -9,7 +9,7 @@ export const facebookLink = "https://www.facebook.com/boglartfeszt";
 
 export const programme = [
   {
-    day: "2024-10-28",
+    day: "2024-08-28",
     schedule: [
       {
         time: "19:00",
@@ -39,7 +39,7 @@ export const programme = [
     ],
   },
   {
-    day: "2024-10-29",
+    day: "2024-08-29",
     schedule: [
       {
         time: "19:00",
@@ -69,7 +69,7 @@ export const programme = [
     ],
   },
   {
-    day: "2024-10-30",
+    day: "2024-08-30",
     schedule: [
       {
         time: "19:00",
@@ -99,7 +99,7 @@ export const programme = [
     ],
   },
   {
-    day: "2024-10-31",
+    day: "2024-08-31",
     schedule: [
       {
         time: "19:00",
