@@ -21,6 +21,8 @@ const Supporter = ({ supporter }: SupporterProps) => (
   </li>
 );
 
+// TODO: Gobe should go to the top on mobile
+
 const Supporters = () => (
   <section className="section-wrapper">
     <h2>Támogatóink</h2>
