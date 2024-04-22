@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/boglart/static/css/main.d43d258e.css",
+    "main.js": "/boglart/static/js/main.fe12da8b.js",
+    "static/js/453.6a718b3e.chunk.js": "/boglart/static/js/453.6a718b3e.chunk.js",
+    "static/media/banner.jpg": "/boglart/static/media/banner.6611628389f8d8997f8b.jpg",
+    "static/media/logo.png": "/boglart/static/media/logo.db3168a2949be374df8d.png",
+    "index.html": "/boglart/index.html",
+    "main.d43d258e.css.map": "/boglart/static/css/main.d43d258e.css.map",
+    "main.fe12da8b.js.map": "/boglart/static/js/main.fe12da8b.js.map",
+    "453.6a718b3e.chunk.js.map": "/boglart/static/js/453.6a718b3e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d43d258e.css",
+    "static/js/main.fe12da8b.js"
+  ]
+}
