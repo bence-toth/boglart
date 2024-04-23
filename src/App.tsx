@@ -12,7 +12,7 @@ import { hu, en } from "./languagePack";
 
 import "./App.css";
 
-const isProtected = false;
+const isProtected = true;
 
 // TODO: Update favicon
 // TODO: Add meta description
