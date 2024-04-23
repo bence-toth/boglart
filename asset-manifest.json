@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/boglart/static/css/main.a5b69677.css",
-    "main.js": "/boglart/static/js/main.833fa808.js",
+    "main.css": "/boglart/static/css/main.bf211098.css",
+    "main.js": "/boglart/static/js/main.e5e3b589.js",
     "static/js/453.6a718b3e.chunk.js": "/boglart/static/js/453.6a718b3e.chunk.js",
-    "static/media/banner.jpg": "/boglart/static/media/banner.6611628389f8d8997f8b.jpg",
+    "static/media/banner.jpg": "/boglart/static/media/banner.a728915c76d49810aedd.jpg",
+    "static/media/banner-mobile.jpg": "/boglart/static/media/banner-mobile.ac5f29d92f17125cd86b.jpg",
     "static/media/logo.png": "/boglart/static/media/logo.db3168a2949be374df8d.png",
     "static/media/supporter-babel-camp.png": "/boglart/static/media/supporter-babel-camp.7be22451f33b027e4c2b.png",
     "static/media/supporter-nemzeti-kulturalis-alap.png": "/boglart/static/media/supporter-nemzeti-kulturalis-alap.6027cc3310b4e469a5fb.png",
     "static/media/supporter-gyongyviragos-folkmuhely.png": "/boglart/static/media/supporter-gyongyviragos-folkmuhely.6811629ab0da56fda2bf.png",
     "static/media/supporter-halmos-bela-program.png": "/boglart/static/media/supporter-halmos-bela-program.f936b69b2eb90c81ca81.png",
     "index.html": "/boglart/index.html",
-    "main.a5b69677.css.map": "/boglart/static/css/main.a5b69677.css.map",
-    "main.833fa808.js.map": "/boglart/static/js/main.833fa808.js.map",
+    "main.bf211098.css.map": "/boglart/static/css/main.bf211098.css.map",
+    "main.e5e3b589.js.map": "/boglart/static/js/main.e5e3b589.js.map",
     "453.6a718b3e.chunk.js.map": "/boglart/static/js/453.6a718b3e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a5b69677.css",
-    "static/js/main.833fa808.js"
+    "static/css/main.bf211098.css",
+    "static/js/main.e5e3b589.js"
   ]
 }
