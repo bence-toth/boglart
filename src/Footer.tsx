@@ -1,44 +1,54 @@
 import { AiFillFacebook as FacebookIcon } from "react-icons/ai";
 import { AiFillInstagram as InstagramIcon } from "react-icons/ai";
 
-import { facebookLink, instagramLink } from "./constants";
-
-import Logo from "./logo.png";
+import type { LanguagePack } from "./languagePack";
 
 import "./Footer.css";
 
-// TODO: Add missing links
-// TODO: Replace logo
-// TODO: Translate
+import Logo from "./logo.png";
 
-const Footer = () => (
+interface FooterProps {
+  languagePack: LanguagePack;
+}
+
+// TODO: Replace logo
+
+const Footer = ({ languagePack }: FooterProps) => (
   <footer className="footer">
     <div className="footer-inner-wrapper">
       <div className="address">
         <img className="header-logo" src={Logo} alt="Boglart" />
-        <address>&copy; 2024, Góbé Kulturális Egyesület</address>
+        <address>{languagePack.footer.copyright}</address>
       </div>
       <div className="links">
         <nav>
           <ul>
             <li>
-              <a href="/">Szállásfoglalás</a>
+              <a href={languagePack.footer.accommodation.url}>
+                {languagePack.footer.accommodation.caption}
+              </a>
             </li>
             <li>
-              <a href="/">Házirend</a>
+              <a href={languagePack.footer.houseRules.url}>
+                {languagePack.footer.houseRules.caption}
+              </a>
             </li>
             <li>
-              <a href="/">Kapcsolat</a>
+              <a href={languagePack.footer.contact.url}>
+                {languagePack.footer.contact.caption}
+              </a>
             </li>
             <li>
-              <a href="mailto:allearsmanagement@gmail.com">Booking</a>
+              <a href={languagePack.footer.booking.url}>
+                {languagePack.footer.booking.caption}
+              </a>
             </li>
           </ul>
           <ul className="social">
             <li>
               <a
                 className="social"
-                href={facebookLink}
+                href={languagePack.socialMedia.facebook}
                 target="_blank"
                 rel="noreferrer"
               >
@@ -48,7 +58,7 @@ const Footer = () => (
             <li>
               <a
                 className="social"
-                href={instagramLink}
+                href={languagePack.socialMedia.instagram}
                 target="_blank"
                 rel="noreferrer"
               >

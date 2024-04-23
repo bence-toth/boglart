@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect, useMemo } from "react";
 
 import Header from "./Header";
 import Banner from "./Banner";
@@ -8,19 +8,30 @@ import FAQ from "./FAQ";
 import Map from "./Map";
 import Supporters from "./Supporters";
 import Footer from "./Footer";
+import { hu, en } from "./languagePack";
 
 import "./App.css";
 
-const isProtected = true;
+const isProtected = false;
 
 // TODO: Update favicon
 // TODO: Add meta description
 // TODO: Add social meta
-// TODO: Implement language switcher
 // TODO: Remove gh-pages "homepage" field from package.json
+// TODO: Add button for "register for course"
 
 const App = () => {
+  const [isEnglish, setIsEnglish] = useState(false);
+
+  useEffect(() => {
+    const queryParams = new URLSearchParams(window.location.search);
+    const languageParam = queryParams.get("language");
+    setIsEnglish(languageParam === "en");
+  }, []);
+
   const [password, setPassword] = useState("");
+
+  const languagePack = useMemo(() => (isEnglish ? en : hu), [isEnglish]);
 
   if (isProtected && password !== "koszikoszi") {
     return (
@@ -35,15 +46,15 @@ const App = () => {
 
   return (
     <div>
-      <Header />
+      <Header languagePack={languagePack} isEnglish={isEnglish} />
       <main>
-        <Banner />
-        <Programme />
-        <About />
-        <FAQ />
-        <Map />
-        <Supporters />
-        <Footer />
+        <Banner languagePack={languagePack} />
+        <Programme languagePack={languagePack} />
+        <About languagePack={languagePack} />
+        <FAQ languagePack={languagePack} />
+        <Map languagePack={languagePack} />
+        <Supporters languagePack={languagePack} />
+        <Footer languagePack={languagePack} />
       </main>
     </div>
   );

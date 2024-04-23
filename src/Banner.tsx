@@ -1,28 +1,29 @@
-import { ticketPurchaseLink } from "./constants";
-
 import BannerImage from "./banner.jpg";
+
+import type { LanguagePack } from "./languagePack";
 
 import "./Banner.css";
 
 // TODO: Add mobile banner
-// TODO: Translate
+// TODO: Add English banners
 
-const Banner = () => (
+interface BannerProps {
+  languagePack: LanguagePack;
+}
+
+const Banner = ({ languagePack }: BannerProps) => (
   <>
     <section className="banner">
-      <img
-        src={BannerImage}
-        alt="5. Boglart, 2024, Balatonboglár, Babel Camp"
-      />
+      <img src={BannerImage} alt={languagePack.bannerAltText} />
     </section>
     <section className="buy-ticket-wrapper">
       <a
         className="buy-ticket"
-        href={ticketPurchaseLink}
+        href={languagePack.ticketPurchase.link}
         target="_blank"
         rel="noreferrer"
       >
-        Jegyvásárlás
+        {languagePack.ticketPurchase.caption}
       </a>
     </section>
   </>

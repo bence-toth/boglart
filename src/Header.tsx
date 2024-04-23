@@ -1,16 +1,20 @@
 import { AiFillFacebook as FacebookIcon } from "react-icons/ai";
 import { AiFillInstagram as InstagramIcon } from "react-icons/ai";
 
-import { ticketPurchaseLink, facebookLink, instagramLink } from "./constants";
+import type { LanguagePack } from "./languagePack";
 
 import Logo from "./logo.png";
 
 import "./Header.css";
 
 // TODO: Replace logo
-// TODO: Translate
 
-const Header = () => (
+interface HeaderProps {
+  languagePack: LanguagePack;
+  isEnglish: boolean;
+}
+
+const Header = ({ languagePack, isEnglish }: HeaderProps) => (
   <header className="header">
     <div className="header-inner-wrapper">
       <div className="logo-wrapper">
@@ -19,14 +23,14 @@ const Header = () => (
       <nav className="header-navigation">
         <ul>
           <li>
-            <a href={ticketPurchaseLink} target="_blank" rel="noreferrer">
-              English
+            <a href={isEnglish ? "/" : "/?language=en"}>
+              {languagePack.otherLanguage}
             </a>
           </li>
           <li>
             <a
               className="social"
-              href={facebookLink}
+              href={languagePack.socialMedia.facebook}
               target="_blank"
               rel="noreferrer"
             >
@@ -36,7 +40,7 @@ const Header = () => (
           <li>
             <a
               className="social"
-              href={instagramLink}
+              href={languagePack.socialMedia.instagram}
               target="_blank"
               rel="noreferrer"
             >
@@ -46,11 +50,11 @@ const Header = () => (
           <li className="hide-on-mobile">
             <a
               className="buy-ticket"
-              href={ticketPurchaseLink}
+              href={languagePack.ticketPurchase.link}
               target="_blank"
               rel="noreferrer"
             >
-              Jegyvásárlás
+              {languagePack.ticketPurchase.caption}
             </a>
           </li>
         </ul>

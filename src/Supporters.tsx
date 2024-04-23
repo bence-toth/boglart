@@ -1,8 +1,6 @@
-import { supporters } from "./constants";
+import type { LanguagePack } from "./languagePack";
 
 import "./Supporters.css";
-
-// TODO: Translate
 
 interface SupporterProps {
   supporter: {
@@ -21,18 +19,23 @@ const Supporter = ({ supporter }: SupporterProps) => (
 );
 
 // TODO: Gobe should go to the top on mobile
+interface SupportersProps {
+  languagePack: LanguagePack;
+}
 
-const Supporters = () => (
+const Supporters = ({ languagePack }: SupportersProps) => (
   <section className="section-wrapper">
-    <h2>Támogatóink</h2>
+    <h2>{languagePack.supportersHeading}</h2>
     <nav className="supporters">
       <ul>
-        {supporters.slice(0, 3).map((supporter, supporterIndex) => (
-          <Supporter key={supporterIndex} supporter={supporter} />
-        ))}
+        {languagePack.supporters
+          .slice(0, 3)
+          .map((supporter, supporterIndex) => (
+            <Supporter key={supporterIndex} supporter={supporter} />
+          ))}
       </ul>
       <ul>
-        {supporters.slice(3).map((supporter, supporterIndex) => (
+        {languagePack.supporters.slice(3).map((supporter, supporterIndex) => (
           <Supporter key={supporterIndex} supporter={supporter} />
         ))}
       </ul>
