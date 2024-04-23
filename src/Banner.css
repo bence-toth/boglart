@@ -34,3 +34,15 @@
 .banner img {
   width: 100%;
 }
+
+@media (width > 720px) {
+  .banner img.mobile {
+    display: none;
+  }
+}
+
+@media (width <= 720px) {
+  .banner img.desktop {
+    display: none;
+  }
+}

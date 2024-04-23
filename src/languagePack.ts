@@ -1,5 +1,7 @@
 /* eslint-disable sonarjs/no-duplicate-string */
 
+import BannerImageHu from "./banner.jpg";
+import BannerImageMobileHu from "./banner-mobile.jpg";
 import BabelCampLogo from "./supporter-babel-camp.png";
 import GobeLogo from "./supporter-gobe.png";
 import GyongyviragosLogo from "./supporter-gyongyviragos-folkmuhely.png";
@@ -8,6 +10,8 @@ import NemzetiKulturalisAlap from "./supporter-nemzeti-kulturalis-alap.png";
 
 export interface LanguagePack {
   otherLanguage: string;
+  bannerImageDesktop: string;
+  bannerImageMobile: string;
   bannerAltText: string;
   ticketPurchase: {
     caption: string;
@@ -63,8 +67,12 @@ export interface LanguagePack {
   };
 }
 
+// TODO: Update all text
+
 export const hu: LanguagePack = {
   otherLanguage: "English",
+  bannerImageDesktop: BannerImageHu,
+  bannerImageMobile: BannerImageMobileHu,
   bannerAltText: "5. Boglart, 2024, Balatonboglár, Babel Camp",
   ticketPurchase: {
     caption: "Jegyvásárlás",
@@ -75,12 +83,10 @@ export const hu: LanguagePack = {
     facebook: "https://www.facebook.com/boglartfeszt",
   },
   aboutHeading: "A fesztiválról",
-  // TODO: Replace with actual text
   aboutText:
     "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae placeat quas ea! Quaerat quas ipsum recusandae cum repellat, exercitationem voluptatibus ullam labore architecto necessitatibus possimus eaque impedit in iure. Sint. Lorem ipsum dolor sit amet consectetur adipisicing elit. At libero incidunt illum et cumque laborum quae pariatur blanditiis voluptate, maiores itaque facilis eos vel quibusdam laboriosam ratione ducimus esse ea.|Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit quam a vero blanditiis, aliquam ex esse! Velit itaque vitae atque qui eum, et quaerat quod beatae magnam repellendus alias quas. Lorem ipsum dolor sit amet consectetur adipisicing elit.Vel voluptate soluta nobis? Eligendi quibusdam modi at optio illum, sunt ad dicta.|Tenetur nulla quod ab tempora atque libero nisi laboriosam?",
   programmeHeading: "Programok",
   furtherProgrammeHeading: "További programok",
-  // TODO: Replace with actual text
   furtherProgrammeText:
     "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae placeat quas ea! Quaerat quas ipsum recusandae cum repellat, exercitationem voluptatibus ullam labore architecto necessitatibus possimus eaque impedit in iure. Sint. Lorem ipsum dolor sit amet consectetur adipisicing elit. At libero incidunt illum et cumque laborum quae pariatur blanditiis voluptate, maiores itaque facilis eos vel quibusdam laboriosam ratione ducimus esse ea.|Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit quam a vero blanditiis, aliquam ex esse! Velit itaque vitae atque qui eum, et quaerat quod beatae magnam repellendus alias quas. Lorem ipsum dolor sit amet consectetur adipisicing elit.Vel voluptate soluta nobis? Eligendi quibusdam modi at optio illum, sunt ad dicta.|Tenetur nulla quod ab tempora atque libero nisi laboriosam?",
   programme: [
@@ -206,7 +212,6 @@ export const hu: LanguagePack = {
     },
   ],
   frequentlyAskedQuestionsHeading: "Gyakran ismételt kérdések",
-  // TODO: Replace with actual text
   frequentlyAskedQuestions: [
     {
       question: "Some question I have",
@@ -276,7 +281,8 @@ export const hu: LanguagePack = {
   },
 };
 
-// TODO: Translate
+// TODO: Translate text
+// TODO: Add English banners
 export const en: LanguagePack = {
   ...hu,
   otherLanguage: "Magyar",

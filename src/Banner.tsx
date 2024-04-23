@@ -1,11 +1,6 @@
-import BannerImage from "./banner.jpg";
-
 import type { LanguagePack } from "./languagePack";
 
 import "./Banner.css";
-
-// TODO: Add mobile banner
-// TODO: Add English banners
 
 interface BannerProps {
   languagePack: LanguagePack;
@@ -14,7 +9,16 @@ interface BannerProps {
 const Banner = ({ languagePack }: BannerProps) => (
   <>
     <section className="banner">
-      <img src={BannerImage} alt={languagePack.bannerAltText} />
+      <img
+        className="desktop"
+        src={languagePack.bannerImageDesktop}
+        alt={languagePack.bannerAltText}
+      />
+      <img
+        className="mobile"
+        src={languagePack.bannerImageMobile}
+        alt={languagePack.bannerAltText}
+      />
     </section>
     <section className="buy-ticket-wrapper">
       <a

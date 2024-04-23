@@ -15,10 +15,9 @@ import "./App.css";
 const isProtected = true;
 
 // TODO: Update favicon
-// TODO: Add meta description
+// TODO: Add meta description, title etc. in index.html
 // TODO: Add social meta
 // TODO: Remove gh-pages "homepage" field from package.json
-// TODO: Add button for "register for course"
 
 const App = () => {
   const [isEnglish, setIsEnglish] = useState(false);

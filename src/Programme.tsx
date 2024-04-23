@@ -8,6 +8,8 @@ interface ProgrammeProps {
   languagePack: LanguagePack;
 }
 
+// TODO: Add button for "register for course"
+
 const Programme = ({ languagePack }: ProgrammeProps) => (
   <section className="section-wrapper">
     <div className="section-inner-wrapper schedule-wrapper">
