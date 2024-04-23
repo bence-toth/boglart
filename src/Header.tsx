@@ -23,7 +23,7 @@ const Header = ({ languagePack, isEnglish }: HeaderProps) => (
       <nav className="header-navigation">
         <ul>
           <li>
-            <a href={isEnglish ? "/" : "/?language=en"}>
+            <a href={isEnglish ? "./" : "./?language=en"}>
               {languagePack.otherLanguage}
             </a>
           </li>
