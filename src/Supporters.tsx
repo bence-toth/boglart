@@ -18,7 +18,6 @@ const Supporter = ({ supporter }: SupporterProps) => (
   </li>
 );
 
-// TODO: Gobe should go to the top on mobile
 interface SupportersProps {
   languagePack: LanguagePack;
 }

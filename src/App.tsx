@@ -16,8 +16,9 @@ const isProtected = true;
 
 // TODO: Update favicon
 // TODO: Add meta description, title etc. in index.html
-// TODO: Add social meta
+// TODO: Add social meta https://css-tricks.com/essential-meta-tags-social-media/
 // TODO: Remove gh-pages "homepage" field from package.json
+// TODO: Remove password protection
 
 const App = () => {
   const [isEnglish, setIsEnglish] = useState(false);
