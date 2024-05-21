@@ -1,5 +1,7 @@
 import { Fragment } from "react";
 
+import { parseAnnotatedString } from "./utility";
+
 import type { LanguagePack } from "./languagePack";
 
 import "./FAQ.css";
@@ -15,7 +17,7 @@ const FAQ = ({ languagePack }: FAQProps) => (
         {languagePack.frequentlyAskedQuestions.map((faq) => (
           <Fragment key={faq.question}>
             <dt>{faq.question}</dt>
-            <dd>{faq.answer}</dd>
+            <dd>{parseAnnotatedString(faq.answer)}</dd>
           </Fragment>
         ))}
       </dl>

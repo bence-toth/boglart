@@ -1,5 +1,7 @@
 import { Fragment } from "react";
 
+import { parseAnnotatedString } from "./utility";
+
 import type { LanguagePack } from "./languagePack";
 
 import "./Programme.css";
@@ -61,11 +63,7 @@ const Programme = ({ languagePack }: ProgrammeProps) => (
         </tbody>
       </table>
       <h3>{languagePack.furtherProgrammeHeading}</h3>
-      {languagePack.furtherProgrammeText
-        .split("|")
-        .map((paragraph, paragraphIndex) => (
-          <p key={paragraphIndex}>{paragraph}</p>
-        ))}
+      {parseAnnotatedString(languagePack.furtherProgrammeText)}
     </div>
   </section>
 );
