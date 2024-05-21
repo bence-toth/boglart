@@ -4,7 +4,7 @@ const parseAnnotatedString = (input: string): JSX.Element[] => {
 
   // Function to replace markdown links with JSX <a> elements
   const replaceLinks = (text: string) => {
-    const linkRegex = /\[([^\]]+)\]\((https?:\/\/[^\)]+)\)/g;
+    const linkRegex = /\[([^\]]+)\]\((https?:\/\/[^)]+)\)/g;
     return text.replace(linkRegex, (_, linkText, url) => {
       return `<a href="${url}" target="_blank" rel="noreferrer">${linkText}</a>`;
     });
