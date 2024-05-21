@@ -30,6 +30,12 @@ section p {
   line-height: 1.75;
 }
 
+section p a {
+  color: var(--color-purple-light);
+  outline-color: var(--color-purple-light);
+  outline-offset: 0.2em;
+}
+
 section p:not(:last-child) {
   margin-bottom: 1em;
 }

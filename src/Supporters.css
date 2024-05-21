@@ -12,6 +12,8 @@
 
 .supporters a {
   display: block;
+  outline-color: var(--color-purple-light);
+  outline-offset: 1em 0;
 }
 
 @media (width < 1200px) {
