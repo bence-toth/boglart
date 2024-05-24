@@ -7,6 +7,7 @@ import GobeLogo from "./supporter-gobe.png";
 import GyongyviragosLogo from "./supporter-gyongyviragos-folkmuhely.png";
 import HalmosBelaProgram from "./supporter-halmos-bela-program.png";
 import NemzetiKulturalisAlap from "./supporter-nemzeti-kulturalis-alap.png";
+import HagyomanyokHaza from "./supporter-hagyomanyok-haza.png";
 
 // TODO: Fix URL
 const accommodationUrl = "https://boglart.babelcamp.hu";
@@ -55,7 +56,7 @@ export interface LanguagePack {
   supporters: {
     name: string;
     logo: string;
-    url: "";
+    url: string;
   }[];
   mapTitle: string;
   footer: {
@@ -310,31 +311,35 @@ export const hu: LanguagePack = {
   ],
   supportersHeading: "Támogatók",
   supporters: [
-    // TODO: Add URLs
     {
       name: "Halmos Béla Program",
       logo: HalmosBelaProgram,
-      url: "",
+      url: "https://halmosbelaprogram.hu/",
     },
     {
       name: "Góbé",
       logo: GobeLogo,
-      url: "",
+      url: "https://www.gobeband.com/",
     },
     {
       name: "Nemzeti Kulturális Alap",
       logo: NemzetiKulturalisAlap,
-      url: "",
-    },
-    {
-      name: "Babel Camp",
-      logo: BabelCampLogo,
-      url: "",
+      url: "https://nka.hu/",
     },
     {
       name: "Gyöngyvirágos Folkműhely",
       logo: GyongyviragosLogo,
-      url: "",
+      url: "https://www.facebook.com/folkmuhely/",
+    },
+    {
+      name: "Babel Camp",
+      logo: BabelCampLogo,
+      url: "https://babelcamp.hu/",
+    },
+    {
+      name: "Hagyományok Háza",
+      logo: HagyomanyokHaza,
+      url: "https://hagyomanyokhaza.hu/hu",
     },
   ],
   mapTitle: "Babel Camp",
@@ -590,31 +595,35 @@ export const en: LanguagePack = {
   ],
   supportersHeading: "Támogatók",
   supporters: [
-    // TODO: Add URLs
     {
       name: "Halmos Béla Program",
       logo: HalmosBelaProgram,
-      url: "",
+      url: "https://halmosbelaprogram.hu/en/",
     },
     {
       name: "Góbé",
       logo: GobeLogo,
-      url: "",
+      url: "https://www.gobeband.com/gobe/",
     },
     {
       name: "Nemzeti Kulturális Alap",
       logo: NemzetiKulturalisAlap,
-      url: "",
-    },
-    {
-      name: "Babel Camp",
-      logo: BabelCampLogo,
-      url: "",
+      url: "https://nka.hu/",
     },
     {
       name: "Gyöngyvirágos Folkműhely",
       logo: GyongyviragosLogo,
-      url: "",
+      url: "https://www.facebook.com/folkmuhely/",
+    },
+    {
+      name: "Babel Camp",
+      logo: BabelCampLogo,
+      url: "https://babelcamp.hu/",
+    },
+    {
+      name: "Hagyományok Háza",
+      logo: HagyomanyokHaza,
+      url: "https://hagyomanyokhaza.hu/en",
     },
   ],
   mapTitle: "Babel Camp",
