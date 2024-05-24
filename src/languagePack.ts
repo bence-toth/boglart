@@ -121,7 +121,7 @@ export const hu: LanguagePack = {
         },
         {
           time: "20:30",
-          name: "Nogaband [SK]",
+          name: "Palatkai Banda [RO]",
           location: "Nagyszínpad",
         },
         {
@@ -256,19 +256,17 @@ export const hu: LanguagePack = {
     {
       question:
         "Szeretnék jelentkezni a hangszeres/táncos kurzusra, ezt hogyan tehetem meg?",
-      answer: `A legszuperebb az lenne, ha kitöltenéd [a jelentkezési lapot](${registrationFormUrl}).|Azonban, ha hirtelen felindulásból találod ki, hogy jönnél, a helyszínen is jelentkezhetsz, ha pedig kérdéseid vannak, írj nekünk.`,
+      answer: `A legszuperebb az lenne, ha kitöltenéd [a jelentkezési lapot](${registrationFormUrl}).|Azonban, ha hirtelen felindulásból találod ki, hogy jönnél, a helyszínen is jelentkezhetsz, ha pedig kérdéseid vannak, [írj nekünk](${contactUrl}).`,
     },
     {
       question:
         "Szeretnék jelentkezni a hangszeres/táncos kurzusra, de nincsen saját hangszerem, mit tegyek?",
-      answer:
-        "Írj nekünk legkésőbb a fesztivál előtti héten, ha tudunk szerezni hangszert neked, megoldjuk! De azért szeretnénk jelezni, hogy a kurzusaink elsősorban nem olyanoknak szólnak, akik ott szeretnének elkezdeni játszani valamilyen hangszeren – ebben az esetben is írj, és megpróbáljuk a számodra legmegfelelőbb kurzust ajánlani.",
+      answer: `[Írj nekünk](${contactUrl}) legkésőbb a fesztivál előtti héten, ha tudunk szerezni hangszert neked, megoldjuk! De azért szeretnénk jelezni, hogy a kurzusaink elsősorban nem olyanoknak szólnak, akik ott szeretnének elkezdeni játszani valamilyen hangszeren – ebben az esetben is írj, és megpróbáljuk a számodra legmegfelelőbb kurzust ajánlani.`,
     },
     {
       question:
         "Szeretnék jelentkezni a hangszeres/táncos kurzusra, de nem tudok minden nap ott lenni, lehetséges ez?",
-      answer:
-        "Alapvetően igen, de mivel egy meghatározott anyaggal haladnak a csoportok, ezt a tanárokkal is meg kell beszélnünk, és azt ajánljuk, ha tudsz, végig legyél jelen. Írj nekünk és kitalálunk valamilyen megoldást!",
+      answer: `Alapvetően igen, de mivel egy meghatározott anyaggal haladnak a csoportok, ezt a tanárokkal is meg kell beszélnünk, és azt ajánljuk, ha tudsz, végig legyél jelen. [Írj nekünk](${contactUrl}) és kitalálunk valamilyen megoldást!`,
     },
     {
       question:
@@ -279,8 +277,7 @@ export const hu: LanguagePack = {
     {
       question:
         "Tömegközlekedéssel érkezem, hogyan közelítsem meg a helyszínt?",
-      answer:
-        "Legegyszerűbb Budapestről vonattal lejutni. A menetrendet [megtalálod az Elvirán](https://elvira.mav-start.hu/)|Amennyiben máshonnan érkezel és elakadsz, írj nekünk, igyekszünk segíteni.",
+      answer: `Legegyszerűbb Budapestről vonattal lejutni. A menetrendet [megtalálod az Elvirán](https://elvira.mav-start.hu/)|Amennyiben máshonnan érkezel és elakadsz, [írj nekünk](${contactUrl}), igyekszünk segíteni.`,
     },
     {
       question: "Autóval érkezem, van lehetőség ingyen parkolásra?",
@@ -289,8 +286,7 @@ export const hu: LanguagePack = {
     },
     {
       question: "Mennyire akadálymentesített a fesztivál?",
-      answer:
-        "A helyszín teljesen akadálymentesített, de ha további kérdéseid, speciális igényeid, szükségleteid vannak, keress minket előzetesen vagy a helyszínen, és segítünk mindenben.",
+      answer: `A helyszín teljesen akadálymentesített, de ha további kérdéseid, speciális igényeid, szükségleteid vannak, [keress minket](${contactUrl}) előzetesen vagy a helyszínen, és segítünk mindenben.`,
     },
     {
       question: "Van Balatonbogláron ingyenes strand?",
@@ -299,14 +295,12 @@ export const hu: LanguagePack = {
     },
     {
       question: "Mennyire állatbarát a fesztivál?",
-      answer:
-        "Személyesen nagyon azok vagyunk, de mivel sok az ember és a mindenfelé heverő hangszer, megköszönjük, ha egyeztetsz velünk, ha kedvenced lehoznád a fesztiválra.",
+      answer: `Személyesen nagyon azok vagyunk, de mivel sok az ember és a mindenfelé heverő hangszer, megköszönjük, ha [egyeztetsz velünk](${contactUrl}), ha kedvenced lehoznád a fesztiválra.`,
     },
     {
       question:
         "Szeretnék felajánlani egy saját programot, felajánlani valamit a fesztiválnak, önkénteskedni. Lehetséges ez?",
-      answer:
-        "Természetesen, írj nekünk. Minden ötletet, felajánlást, hozzájárulást, részvételi szándékot szívesen fogadunk. A fesztiválunk pont a közösségépítésről szól!",
+      answer: `Természetesen, [írj nekünk](${contactUrl}). Minden ötletet, felajánlást, hozzájárulást, részvételi szándékot szívesen fogadunk. A fesztiválunk pont a közösségépítésről szól!`,
     },
   ],
   supportersHeading: "Támogatók",
@@ -406,7 +400,7 @@ export const en: LanguagePack = {
         },
         {
           time: "8:30 PM",
-          name: "Nogaband [SK]",
+          name: "Palatkai Banda [RO]",
           location: "Main Stage",
         },
         {
@@ -546,14 +540,12 @@ export const en: LanguagePack = {
     {
       question:
         "I want to register for an instrumental/dance course but don’t have my own instrument, what should I do?",
-      answer:
-        "Reach out to us no later than the week before the festival, and if we can find an instrument for you, we will arrange it. But please note that our courses are not primarily for those who want to start playing an instrument at the festival – if you are an absolute beginner, reach out to us, and we will try to recommend the most suitable course for you.",
+      answer: `[Reach out to us](${contactUrl}) no later than the week before the festival, and if we can find an instrument for you, we will arrange it. But please note that our courses are not primarily for those who want to start playing an instrument at the festival – if you are an absolute beginner, reach out to us, and we will try to recommend the most suitable course for you.`,
     },
     {
       question:
         "I want to register for an instrumental/dance course but can’t be there every day, is this possible?",
-      answer:
-        "In general, yes. However, since the groups progress with specific material, we need to discuss this with the teachers, and we recommend that you be present throughout if possible. Reach out to us and we will find a solution.",
+      answer: `In general, yes. However, since the groups progress with specific material, we need to discuss this with the teachers, and we recommend that you be present throughout if possible. [Reach out to us](${contactUrl}) and we will find a solution.`,
     },
     {
       question:
@@ -563,8 +555,7 @@ export const en: LanguagePack = {
     },
     {
       question: "I am arriving by public transport, how do I reach the venue?",
-      answer:
-        "The easiest way is to take the train from Budapest. The timetable [can be found on Elvira](https://elvira.mav-start.hu/).|If you are coming from another location and need help, reach out to us, and we will do our best to assist you.",
+      answer: `The easiest way is to take the train from Budapest. The timetable [can be found on Elvira](https://elvira.mav-start.hu/).|If you are coming from another location and need help, [reach out to us](${contactUrl}), and we will do our best to assist you.`,
     },
     {
       question: "I am arriving by car, is there free parking available?",
@@ -573,8 +564,7 @@ export const en: LanguagePack = {
     },
     {
       question: "Is the festival accessible?",
-      answer:
-        "The venue is fully accessible, but if you have further questions, special needs, or requirements, please contact us in advance or on-site, and we will help you.",
+      answer: `The venue is fully accessible, but if you have further questions, special needs, or requirements, [please contact us](${contactUrl}) in advance or on-site, and we will help you.`,
     },
     {
       question: "Is there a free public beach in Balatonboglár?",
@@ -583,14 +573,12 @@ export const en: LanguagePack = {
     },
     {
       question: "Is the festival pet-friendly?",
-      answer:
-        "We are very pet-friendly. However, since there are many people and musical instruments lying around, we appreciate it if you discuss bringing your pet with us beforehand.",
+      answer: `We are very pet-friendly. However, since there are many people and musical instruments lying around, we appreciate it if you [let us know](${contactUrl}) that you are bringing your pet with us beforehand.`,
     },
     {
       question:
         "I would like to offer a programme, volunteer, or contribute something to the festival. Is this possible?",
-      answer:
-        "Of course, reach out to us. We welcome all ideas, offers, contributions, and initiatives. Our festival is all about community building!",
+      answer: `Of course, [reach out to us](${contactUrl}). We welcome all ideas, offers, contributions, and initiatives. Our festival is all about community building!`,
     },
   ],
   supportersHeading: "Támogatók",
