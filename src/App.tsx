@@ -20,6 +20,16 @@ const isProtected = true;
 // TODO: Remove password protection
 
 const App = () => {
+  // Redirect from http to https
+  useEffect(() => {
+    if (window.location.protocol === "http:") {
+      window.location.href = window.location.href.replace(
+        "http://",
+        "https://"
+      );
+    }
+  }, []);
+
   const [isEnglish, setIsEnglish] = useState(false);
 
   useEffect(() => {
