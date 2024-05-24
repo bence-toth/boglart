@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/boglart/static/css/main.9542319d.css",
-    "main.js": "/boglart/static/js/main.a3ffdf5c.js",
+    "main.js": "/boglart/static/js/main.fa0f609d.js",
     "static/js/453.6a718b3e.chunk.js": "/boglart/static/js/453.6a718b3e.chunk.js",
     "static/media/banner.jpg": "/boglart/static/media/banner.a728915c76d49810aedd.jpg",
     "static/media/banner-mobile.jpg": "/boglart/static/media/banner-mobile.ac5f29d92f17125cd86b.jpg",
@@ -10,13 +10,14 @@
     "static/media/supporter-nemzeti-kulturalis-alap.png": "/boglart/static/media/supporter-nemzeti-kulturalis-alap.6027cc3310b4e469a5fb.png",
     "static/media/supporter-gyongyviragos-folkmuhely.png": "/boglart/static/media/supporter-gyongyviragos-folkmuhely.6811629ab0da56fda2bf.png",
     "static/media/supporter-halmos-bela-program.png": "/boglart/static/media/supporter-halmos-bela-program.f936b69b2eb90c81ca81.png",
+    "static/media/supporter-hagyomanyok-haza.png": "/boglart/static/media/supporter-hagyomanyok-haza.9ff07d6d39ab380178ba.png",
     "index.html": "/boglart/index.html",
     "main.9542319d.css.map": "/boglart/static/css/main.9542319d.css.map",
-    "main.a3ffdf5c.js.map": "/boglart/static/js/main.a3ffdf5c.js.map",
+    "main.fa0f609d.js.map": "/boglart/static/js/main.fa0f609d.js.map",
     "453.6a718b3e.chunk.js.map": "/boglart/static/js/453.6a718b3e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9542319d.css",
-    "static/js/main.a3ffdf5c.js"
+    "static/js/main.fa0f609d.js"
   ]
 }
