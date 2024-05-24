@@ -8,7 +8,19 @@ import GyongyviragosLogo from "./supporter-gyongyviragos-folkmuhely.png";
 import HalmosBelaProgram from "./supporter-halmos-bela-program.png";
 import NemzetiKulturalisAlap from "./supporter-nemzeti-kulturalis-alap.png";
 
+// TODO: Fix URL
+const accommodationUrl = "https://boglart.babelcamp.hu";
+// TODO: Fix URL
+const houseRulesUrl = "https://boglart.babelcamp.hu";
+const registrationFormUrl = "https://forms.gle/qe8DUvJMWxkrQHCs6";
+const contactUrl = "mailto:info@boglart.hu";
+
 export interface LanguagePack {
+  meta: {
+    url: string;
+    description: string;
+    keywords: string;
+  };
   otherLanguage: string;
   bannerImageDesktop: string;
   bannerImageMobile: string;
@@ -68,6 +80,12 @@ export interface LanguagePack {
 }
 
 export const hu: LanguagePack = {
+  meta: {
+    description:
+      "Családias világzenei fesztivál és népzenei kurzus a Balaton partján",
+    keywords: "fesztivál, világzene, népzene, kurzus, Balaton, Balatonboglár",
+    url: "https://boglart.hu",
+  },
   otherLanguage: "English",
   bannerImageDesktop: BannerImageHu,
   bannerImageMobile: BannerImageMobileHu,
@@ -85,8 +103,7 @@ export const hu: LanguagePack = {
     "A Boglart egy családias fesztivál a Balaton partján. Különlegessége, hogy egyszerre népzenei kurzus, világzenei fesztivál és zeneipari fórum; az alkotók és a közönség egy térben találkozhatnak, beszélgethetnek, szórakozhatnak, eszmét cserélhetnek. A rendezvényt a közösség hozza létre, a népzenét tanulók is részt vesznek a közös táncházakban, a fellépő előadók mesterkurzusokat tartanak, az oktatók saját zenekaraikkal is koncerteznek. A programok nyilvánosak, a közönség megtapasztalhatja a művészek életének különböző oldalait, emellett a fiatal zenészek számára is szakmai fejlődési lehetőséget nyújt. A Babel Camp hangulatos, vadregényes helyszíne kiválóan alkalmas arra, hogy nyugodt, meghitt és változatos négy napot lehessen eltölteni a fesztiválon.",
   programmeHeading: "Koncertek",
   furtherProgrammeHeading: "Programok",
-  furtherProgrammeText:
-    "[Népzenei kurzusok](https://forms.gle/qe8DUvJMWxkrQHCs6), amiket a Góbé, a Pásztorhóra és a Tindia zenekar tagjai tartanak egyéb meghívott tanárokkal, valamint néptánc kurzus;|Világzenei workshopok a fellépő előadókkal;|Zeneipari fejlesztő előadások;|Táncházak;|Civil falu a helyi és regionális civil szervezetek bevonásával.|A tanárok listáját, pontos előadásokat [a Facebook oldalunkon](https://www.facebook.com/boglartfeszt) hirdetjük.",
+  furtherProgrammeText: `[Népzenei kurzusok](${registrationFormUrl}), amiket a Góbé, a Pásztorhóra és a Tindia zenekar tagjai tartanak egyéb meghívott tanárokkal, valamint néptánc kurzus;|Világzenei workshopok a fellépő előadókkal;|Zeneipari fejlesztő előadások;|Táncházak;|Civil falu a helyi és regionális civil szervezetek bevonásával.|A tanárok listáját, pontos előadásokat [a Facebook oldalunkon](https://www.facebook.com/boglartfeszt) hirdetjük.`,
   programme: [
     {
       day: "2024-08-28",
@@ -213,9 +230,7 @@ export const hu: LanguagePack = {
   frequentlyAskedQuestions: [
     {
       question: "Lehet sátrazni a fesztivál területén?",
-      // TODO: Add missing link
-      answer:
-        "Sajnos sátrazásra a területen belül nincs lehetőség, de [szállásfoglalásra igen](https://url.will.follow).|Ha pedig mindenképp sátorozni szeretnél, [ebben a kempingben](https://sellocamping.hu/) teheted meg Balatonbogláron (kb. 15 perc séta a fesztivál helyszínétől).",
+      answer: `Sajnos sátrazásra a területen belül nincs lehetőség, de [szállásfoglalásra igen](${accommodationUrl}).|Ha pedig mindenképp sátorozni szeretnél, [ebben a kempingben](https://sellocamping.hu/) teheted meg Balatonbogláron (kb. 15 perc séta a fesztivál helyszínétől).`,
     },
     {
       question: "Lesz étkezési lehetőség a fesztivál területén?",
@@ -240,9 +255,7 @@ export const hu: LanguagePack = {
     {
       question:
         "Szeretnék jelentkezni a hangszeres/táncos kurzusra, ezt hogyan tehetem meg?",
-      // TODO: Add missing link
-      answer:
-        "A legszuperebb az lenne, ha kitöltenéd [a jelentkezési lapot](https://url.will.follow).|Azonban, ha hirtelen felindulásból találod ki, hogy jönnél, a helyszínen is jelentkezhetsz, ha pedig kérdéseid vannak, írj nekünk.",
+      answer: `A legszuperebb az lenne, ha kitöltenéd [a jelentkezési lapot](${registrationFormUrl}).|Azonban, ha hirtelen felindulásból találod ki, hogy jönnél, a helyszínen is jelentkezhetsz, ha pedig kérdéseid vannak, írj nekünk.`,
     },
     {
       question:
@@ -327,18 +340,17 @@ export const hu: LanguagePack = {
   mapTitle: "Babel Camp",
   footer: {
     copyright: "© 2024, Góbé Kulturális Egyesület",
-    // TODO: Add missing links
     accommodation: {
       caption: "Szállásfoglalás",
-      url: "",
+      url: accommodationUrl,
     },
     houseRules: {
       caption: "Házirend",
-      url: "",
+      url: houseRulesUrl,
     },
     contact: {
       caption: "Kapcsolat",
-      url: "",
+      url: contactUrl,
     },
     booking: {
       caption: "Booking",
@@ -347,9 +359,15 @@ export const hu: LanguagePack = {
   },
 };
 
-// TODO: Add English banners
 export const en: LanguagePack = {
+  meta: {
+    description:
+      "Cozy world music festival and folk music camp on the shores of Lake Balaton",
+    keywords: "festival, world music, folk music, Balaton, Balatonboglár",
+    url: "https://boglart.hu?language=en",
+  },
   otherLanguage: "Magyar",
+  // TODO: Add English banners
   bannerImageDesktop: BannerImageHu,
   bannerImageMobile: BannerImageMobileHu,
   bannerAltText: "5. Boglart, 2024, Balatonboglár, Babel Camp",
@@ -366,8 +384,7 @@ export const en: LanguagePack = {
     "Boglart is a family-friendly festival on the shores of Lake Balaton. Its uniqueness lies in being simultaneously a folk music course, a world music festival, and a music industry forum; it offers a safe space where creators and the audience can meet, converse, enjoy themselves, and exchange ideas. The event is community-driven, with folk music learners participating in dance houses, performers giving masterclasses, and instructors also performing with their own bands. The programs are open to the public, allowing the audience to experience different aspects of the artists’ lives while providing young musicians with opportunities for professional development. The charming, wild setting of Babel Camp is perfect for spending a peaceful, intimate, and diverse four days at the festival.",
   programmeHeading: "Concerts",
   furtherProgrammeHeading: "Programmes",
-  furtherProgrammeText:
-    "[Folk music courses](https://forms.gle/qe8DUvJMWxkrQHCs6) taught by members of the bands Góbé, Pásztorhóra, and Tindia, along with other invited teachers, as well as a folk dance course;|World music workshops with the performing artists;|Music industry development masterclasses;|Dance houses;|Civil village involving local and regional civil organizations.|We will announce the list of teachers and topics of workshops and masterclasses [on our Facebook page](https://www.facebook.com/boglartfeszt).",
+  furtherProgrammeText: `[Folk music courses](${registrationFormUrl}) taught by members of the bands Góbé, Pásztorhóra, and Tindia, along with other invited teachers, as well as a folk dance course;|World music workshops with the performing artists;|Music industry development masterclasses;|Dance houses;|Civil village involving local and regional civil organizations.|We will announce the list of teachers and topics of workshops and masterclasses [on our Facebook page](https://www.facebook.com/boglartfeszt).`,
   programme: [
     {
       day: "28 August 2024",
@@ -494,9 +511,7 @@ export const en: LanguagePack = {
   frequentlyAskedQuestions: [
     {
       question: "Can I camp on the festival grounds?",
-      // TODO: Add missing link
-      answer:
-        "Unfortunately, camping is not allowed within the festival area, but [you can book accommodations](https://url.will.follow).|If you still prefer camping, you can do so [at this campsite](https://sellocamping.hu/) in Balatonboglár (about a 15-minute walk away from the festival)",
+      answer: `Unfortunately, camping is not allowed within the festival area, but [you can book accommodations](${accommodationUrl}).|If you still prefer camping, you can do so [at this campsite](https://sellocamping.hu/) in Balatonboglár (about a 15-minute walk away from the festival)`,
     },
     {
       question: "Will there be dining options at the festival site?",
@@ -521,9 +536,7 @@ export const en: LanguagePack = {
     {
       question:
         "I want to register for an instrumental/dance course, how can I do this?",
-      // TODO: Add missing link
-      answer:
-        "The best way would be to fill out [the registration form](https://url.will.follow).|However, if you decide to join at the last minute, you can register on-site, and if you have any questions, drop us a message.",
+      answer: `The best way would be to fill out [the registration form](${registrationFormUrl}).|However, if you decide to join at the last minute, you can register on-site, and if you have any questions, drop us a message.`,
     },
     {
       question:
@@ -607,18 +620,17 @@ export const en: LanguagePack = {
   mapTitle: "Babel Camp",
   footer: {
     copyright: "© 2024, Góbé Kulturális Egyesület",
-    // TODO: Add missing links
     accommodation: {
       caption: "Accommodation",
-      url: "",
+      url: accommodationUrl,
     },
     houseRules: {
       caption: "General rules",
-      url: "",
+      url: houseRulesUrl,
     },
     contact: {
       caption: "Contact",
-      url: "",
+      url: contactUrl,
     },
     booking: {
       caption: "Booking",

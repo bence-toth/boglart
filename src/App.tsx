@@ -1,4 +1,5 @@
 import { useState, useEffect, useMemo } from "react";
+import { Helmet } from "react-helmet";
 
 import Header from "./Header";
 import Banner from "./Banner";
@@ -15,8 +16,6 @@ import "./App.css";
 const isProtected = true;
 
 // TODO: Update favicon
-// TODO: Add meta description, title etc. in index.html
-// TODO: Add social meta https://css-tricks.com/essential-meta-tags-social-media/
 // TODO: Remove gh-pages "homepage" field from package.json
 // TODO: Remove password protection
 
@@ -46,6 +45,18 @@ const App = () => {
 
   return (
     <div>
+      <Helmet>
+        <meta name="description" content={languagePack.meta.description} />
+        <meta name="keywords" content={languagePack.meta.keywords} />
+        <meta property="og:title" content="Boglart" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content={languagePack.meta.url} />
+        {/* TODO: Add meta images (Hungarian + English) */}
+        {/* <meta
+          property="og:image"
+          content="https://ia.media-imdb.com/images/rock.jpg"
+        /> */}
+      </Helmet>
       <Header languagePack={languagePack} isEnglish={isEnglish} />
       <main>
         <Banner languagePack={languagePack} />
