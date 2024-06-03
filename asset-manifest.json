@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/boglart/static/css/main.a854e887.css",
-    "main.js": "/boglart/static/js/main.fb7ed8b0.js",
+    "main.js": "/boglart/static/js/main.aafe130d.js",
     "static/js/453.6a718b3e.chunk.js": "/boglart/static/js/453.6a718b3e.chunk.js",
     "static/media/banner-desktop-hu.jpg": "/boglart/static/media/banner-desktop-hu.2f62f6a0fad99766c7cf.jpg",
     "static/media/banner-desktop-en.jpg": "/boglart/static/media/banner-desktop-en.c9cbefbb78bb366354da.jpg",
@@ -17,11 +17,11 @@
     "static/media/supporter-hagyomanyok-haza.png": "/boglart/static/media/supporter-hagyomanyok-haza.9ff07d6d39ab380178ba.png",
     "index.html": "/boglart/index.html",
     "main.a854e887.css.map": "/boglart/static/css/main.a854e887.css.map",
-    "main.fb7ed8b0.js.map": "/boglart/static/js/main.fb7ed8b0.js.map",
+    "main.aafe130d.js.map": "/boglart/static/js/main.aafe130d.js.map",
     "453.6a718b3e.chunk.js.map": "/boglart/static/js/453.6a718b3e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a854e887.css",
-    "static/js/main.fb7ed8b0.js"
+    "static/js/main.aafe130d.js"
   ]
 }
