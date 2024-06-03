@@ -1,23 +1,27 @@
 {
   "files": {
-    "main.css": "/boglart/static/css/main.9542319d.css",
-    "main.js": "/boglart/static/js/main.fa0f609d.js",
+    "main.css": "/boglart/static/css/main.a854e887.css",
+    "main.js": "/boglart/static/js/main.93b4ab1a.js",
     "static/js/453.6a718b3e.chunk.js": "/boglart/static/js/453.6a718b3e.chunk.js",
-    "static/media/banner.jpg": "/boglart/static/media/banner.a728915c76d49810aedd.jpg",
-    "static/media/banner-mobile.jpg": "/boglart/static/media/banner-mobile.ac5f29d92f17125cd86b.jpg",
-    "static/media/logo.png": "/boglart/static/media/logo.db3168a2949be374df8d.png",
+    "static/media/banner-desktop-hu.jpg": "/boglart/static/media/banner-desktop-hu.2f62f6a0fad99766c7cf.jpg",
+    "static/media/banner-desktop-en.jpg": "/boglart/static/media/banner-desktop-en.c9cbefbb78bb366354da.jpg",
+    "static/media/meta-card-hu.jpg": "/boglart/static/media/meta-card-hu.827cc1333cd1636ecde4.jpg",
+    "static/media/meta-card-en.jpg": "/boglart/static/media/meta-card-en.441b56b2e92fd762bc87.jpg",
+    "static/media/banner-mobile-en.jpg": "/boglart/static/media/banner-mobile-en.ad7a276e9dc342dc9ffa.jpg",
+    "static/media/banner-mobile-hu.jpg": "/boglart/static/media/banner-mobile-hu.ad7a276e9dc342dc9ffa.jpg",
     "static/media/supporter-babel-camp.png": "/boglart/static/media/supporter-babel-camp.7be22451f33b027e4c2b.png",
     "static/media/supporter-nemzeti-kulturalis-alap.png": "/boglart/static/media/supporter-nemzeti-kulturalis-alap.6027cc3310b4e469a5fb.png",
+    "static/media/logo.png": "/boglart/static/media/logo.82961e953f26c09c8273.png",
     "static/media/supporter-gyongyviragos-folkmuhely.png": "/boglart/static/media/supporter-gyongyviragos-folkmuhely.6811629ab0da56fda2bf.png",
     "static/media/supporter-halmos-bela-program.png": "/boglart/static/media/supporter-halmos-bela-program.f936b69b2eb90c81ca81.png",
     "static/media/supporter-hagyomanyok-haza.png": "/boglart/static/media/supporter-hagyomanyok-haza.9ff07d6d39ab380178ba.png",
     "index.html": "/boglart/index.html",
-    "main.9542319d.css.map": "/boglart/static/css/main.9542319d.css.map",
-    "main.fa0f609d.js.map": "/boglart/static/js/main.fa0f609d.js.map",
+    "main.a854e887.css.map": "/boglart/static/css/main.a854e887.css.map",
+    "main.93b4ab1a.js.map": "/boglart/static/js/main.93b4ab1a.js.map",
     "453.6a718b3e.chunk.js.map": "/boglart/static/js/453.6a718b3e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9542319d.css",
-    "static/js/main.fa0f609d.js"
+    "static/css/main.a854e887.css",
+    "static/js/main.93b4ab1a.js"
   ]
 }
