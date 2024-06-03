@@ -1,48 +1,29 @@
-// TODO: Replace with actual GA code
+const measurementId = "G-0525PM0DD3";
 
-declare global {
-  interface Window {
-    GoogleAnalyticsObject?: string;
-    ga?: (...args: any[]) => void;
+let isGoogleAnalyticsInitialized = false;
+
+export const loadGoogleAnalytics = () => {
+  if (isGoogleAnalyticsInitialized) {
+    return;
   }
-}
 
-const loadGoogleAnalytics = () => {
-  (function (i, s, o, g, r, a, m) {
-    i["GoogleAnalyticsObject"] = r;
-    /* @ts-ignore */
-    // eslint-disable-next-line @typescript-eslint/no-unused-expressions
-    (i[r] =
-      /* @ts-ignore */
-      i[r] ||
-      function () {
-        /* @ts-ignore */
-        (i[r].q = i[r].q || []).push(arguments);
-        // eslint-disable-next-line no-sequences
-      }),
-      /* @ts-ignore */
-      (i[r].l = 1 * new Date());
-    /* @ts-ignore */
-    // eslint-disable-next-line @typescript-eslint/no-unused-expressions, no-sequences
-    (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
-    /* @ts-ignore */
-    a.async = 1;
-    /* @ts-ignore */
-    a.src = g;
-    /* @ts-ignore */
-    m.parentNode.insertBefore(a, m);
-  })(
-    window,
-    document,
-    "script",
-    "https://www.google-analytics.com/analytics.js",
-    "ga"
-  );
+  // Create the script element for the gtag.js library
+  const script = document.createElement("script");
+  script.src = `https://www.googletagmanager.com/gtag/js?id=${measurementId}`;
+  script.async = true;
+  document.head.appendChild(script);
 
+  // Initialize the dataLayer and gtag function
   /* @ts-ignore */
-  ga("create", "UA-XXXXX-Y", "auto");
-  /* @ts-ignore */
-  ga("send", "pageview");
+  window.dataLayer = window.dataLayer || [];
+  function gtag(...args: any[]) {
+    /* @ts-ignore */
+    window.dataLayer.push(args);
+  }
+
+  // Push the initial configuration to the dataLayer
+  gtag("js", new Date());
+  gtag("config", measurementId);
+
+  isGoogleAnalyticsInitialized = true;
 };
-
-export { loadGoogleAnalytics };
