@@ -7,6 +7,8 @@ import reportWebVitals from "./reportWebVitals";
 
 import "./index.css";
 
+// TODO: Remove gh-pages "homepage" field from package.json
+
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
 );

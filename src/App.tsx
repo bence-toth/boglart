@@ -14,10 +14,8 @@ import { hu, en } from "./languagePack";
 
 import "./App.css";
 
-const isProtected = false;
-
-// TODO: Remove gh-pages "homepage" field from package.json
 // TODO: Remove password protection
+const isProtected = true;
 
 const App = () => {
   // Redirect from http to https
