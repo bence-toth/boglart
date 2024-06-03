@@ -7,8 +7,6 @@ import Logo from "./logo.png";
 
 import "./Header.css";
 
-// TODO: Replace logo
-
 interface HeaderProps {
   languagePack: LanguagePack;
   isEnglish: boolean;

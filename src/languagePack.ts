@@ -1,7 +1,12 @@
 /* eslint-disable sonarjs/no-duplicate-string */
 
-import BannerImageHu from "./banner.jpg";
-import BannerImageMobileHu from "./banner-mobile.jpg";
+import BannerImageDesktopHu from "./banner-desktop-hu.jpg";
+import BannerImageDesktopEn from "./banner-desktop-en.jpg";
+import BannerImageMobileHu from "./banner-mobile-hu.jpg";
+import BannerImageMobileEn from "./banner-mobile-en.jpg";
+import MetaCardHu from "./meta-card-hu.jpg";
+import MetaCardEn from "./meta-card-en.jpg";
+
 import BabelCampLogo from "./supporter-babel-camp.png";
 import GobeLogo from "./supporter-gobe.png";
 import GyongyviragosLogo from "./supporter-gyongyviragos-folkmuhely.png";
@@ -9,18 +14,18 @@ import HalmosBelaProgram from "./supporter-halmos-bela-program.png";
 import NemzetiKulturalisAlap from "./supporter-nemzeti-kulturalis-alap.png";
 import HagyomanyokHaza from "./supporter-hagyomanyok-haza.png";
 
-// TODO: Fix URL
-const accommodationUrl = "https://boglart.babelcamp.hu";
-// TODO: Fix URL
-const houseRulesUrl = "https://boglart.babelcamp.hu";
+const accommodationUrl = "https://boglart.babelcamp.hu/#szallas";
+const houseRulesUrl = "https://boglart.babelcamp.hu/#hazirend";
 const registrationFormUrl = "https://forms.gle/qe8DUvJMWxkrQHCs6";
 const contactUrl = "mailto:info@boglart.hu";
 
 export interface LanguagePack {
   meta: {
     url: string;
+    baseUrl: string;
     description: string;
     keywords: string;
+    image: string;
   };
   otherLanguage: string;
   bannerImageDesktop: string;
@@ -84,15 +89,19 @@ export interface LanguagePack {
   };
 }
 
+// TODO: Update concert schedule
+
 export const hu: LanguagePack = {
   meta: {
     description:
       "Családias világzenei fesztivál és népzenei kurzus a Balaton partján",
     keywords: "fesztivál, világzene, népzene, kurzus, Balaton, Balatonboglár",
     url: "https://boglart.hu",
+    baseUrl: "https://boglart.hu",
+    image: MetaCardHu,
   },
   otherLanguage: "English",
-  bannerImageDesktop: BannerImageHu,
+  bannerImageDesktop: BannerImageDesktopHu,
   bannerImageMobile: BannerImageMobileHu,
   bannerAltText: "5. Boglart, 2024, Balatonboglár, Babel Camp",
   ticketPurchase: {
@@ -372,11 +381,12 @@ export const en: LanguagePack = {
       "Cozy world music festival and folk music camp on the shores of Lake Balaton",
     keywords: "festival, world music, folk music, Balaton, Balatonboglár",
     url: "https://boglart.hu?language=en",
+    baseUrl: "https://boglart.hu",
+    image: MetaCardEn,
   },
   otherLanguage: "Magyar",
-  // TODO: Add English banners
-  bannerImageDesktop: BannerImageHu,
-  bannerImageMobile: BannerImageMobileHu,
+  bannerImageDesktop: BannerImageDesktopEn,
+  bannerImageMobile: BannerImageMobileEn,
   bannerAltText: "5. Boglart, 2024, Balatonboglár, Babel Camp",
   ticketPurchase: {
     caption: "Tickets",

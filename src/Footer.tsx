@@ -11,8 +11,6 @@ interface FooterProps {
   languagePack: LanguagePack;
 }
 
-// TODO: Replace logo
-
 const Footer = ({ languagePack }: FooterProps) => (
   <footer className="footer">
     <div className="footer-inner-wrapper">

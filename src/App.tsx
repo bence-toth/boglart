@@ -16,7 +16,6 @@ import "./App.css";
 
 const isProtected = false;
 
-// TODO: Update favicon
 // TODO: Remove gh-pages "homepage" field from package.json
 // TODO: Remove password protection
 
@@ -56,17 +55,17 @@ const App = () => {
 
   return (
     <div>
+      {/* TODO: Switch to helmet-async */}
       <Helmet>
         <meta name="description" content={languagePack.meta.description} />
         <meta name="keywords" content={languagePack.meta.keywords} />
         <meta property="og:title" content="Boglart" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content={languagePack.meta.url} />
-        {/* TODO: Add meta images (Hungarian + English) */}
-        {/* <meta
+        <meta
           property="og:image"
-          content="https://ia.media-imdb.com/images/rock.jpg"
-        /> */}
+          content={`${languagePack.meta.baseUrl}${languagePack.meta.image}`}
+        />
       </Helmet>
       <CookieConsent languagePack={languagePack} />
       <Header languagePack={languagePack} isEnglish={isEnglish} />
