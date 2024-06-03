@@ -19,4 +19,14 @@ const parseAnnotatedString = (input: string): JSX.Element[] => {
   });
 };
 
-export { parseAnnotatedString };
+const renderDateOnTwoLines = (date: string): JSX.Element => {
+  const [part1, part2] = date.split(", ");
+  return (
+    <>
+      {part1},<br />
+      {part2}
+    </>
+  );
+};
+
+export { renderDateOnTwoLines, parseAnnotatedString };

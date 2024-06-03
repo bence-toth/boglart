@@ -120,37 +120,42 @@ export const hu: LanguagePack = {
   furtherProgrammeText: `[Népzenei kurzusok](${registrationFormUrl}), amiket a Góbé, a Pásztorhóra és a Tindia zenekar tagjai tartanak egyéb meghívott tanárokkal, valamint néptánc kurzus;|Világzenei workshopok a fellépő előadókkal;|Zeneipari fejlesztő előadások;|Táncházak;|Civil falu a helyi és regionális civil szervezetek bevonásával.|A tanárok listáját, pontos előadásokat [a Facebook oldalunkon](https://www.facebook.com/boglartfeszt) hirdetjük.`,
   programme: [
     {
-      day: "2024-08-28",
+      day: "Augusztus 28., szerda",
       schedule: [
         {
           time: "19:00",
-          name: "Meybahar [HU/GR]",
+          name: "Góbé Folkside",
           location: "Nagyszínpad",
         },
         {
           time: "20:00",
-          name: "Obadu Live Act",
-          location: "Civil falu",
+          name: "",
+          location: "Nagyszínpad",
         },
         {
           time: "20:30",
-          name: "Palatkai Banda [RO]",
+          name: "Palatkai banda [RO]",
           location: "Nagyszínpad",
         },
         {
           time: "22:00",
-          name: "Tindia",
-          location: "Romkocsma",
+          name: "",
+          location: "Nagyszínpad",
         },
         {
-          time: "23:00",
-          name: "Vonós és moldvai táncház",
+          time: "22:30",
+          name: "Kapcza",
+          location: "Nagyszínpad",
+        },
+        {
+          time: "23:30",
+          name: "Közös táncház",
           location: "Romkocsma",
         },
       ],
     },
     {
-      day: "2024-08-29",
+      day: "Augusztus 29., csütörtök",
       schedule: [
         {
           time: "19:00",
@@ -159,8 +164,8 @@ export const hu: LanguagePack = {
         },
         {
           time: "20:00",
-          name: "Obadu Live Act",
-          location: "Civil falu",
+          name: "Afrikora [SN]",
+          location: "Nagyszínpad",
         },
         {
           time: "20:30",
@@ -169,18 +174,23 @@ export const hu: LanguagePack = {
         },
         {
           time: "22:00",
-          name: "Kapcza Banda",
-          location: "Romkocsma",
+          name: "Obadu",
+          location: "Nagyszínpad",
         },
         {
-          time: "23:00",
-          name: "Vonós és moldvai táncház",
+          time: "22:30",
+          name: "Tindia",
+          location: "Nagyszínpad",
+        },
+        {
+          time: "23:30",
+          name: "Közös táncház",
           location: "Romkocsma",
         },
       ],
     },
     {
-      day: "2024-08-30",
+      day: "Augusztus 30., péntek",
       schedule: [
         {
           time: "19:00",
@@ -189,8 +199,8 @@ export const hu: LanguagePack = {
         },
         {
           time: "20:00",
-          name: "Obadu Live Act",
-          location: "Civil falu",
+          name: "Afrikora [SN]",
+          location: "Nagyszínpad",
         },
         {
           time: "20:30",
@@ -199,28 +209,33 @@ export const hu: LanguagePack = {
         },
         {
           time: "22:00",
-          name: "Pásztorhóra",
-          location: "Romkocsma",
+          name: "Obadu",
+          location: "Nagyszínpad",
         },
         {
-          time: "23:00",
-          name: "Vonós, moldvai és nemzetiségi táncház",
+          time: "22:30",
+          name: "Pásztorhóra",
+          location: "Nagyszínpad",
+        },
+        {
+          time: "23:30",
+          name: "Közös táncház",
           location: "Romkocsma",
         },
       ],
     },
     {
-      day: "2024-08-31",
+      day: "Augusztus 31., szombat",
       schedule: [
         {
           time: "19:00",
-          name: "Alterne Trio (BE/EE/DK)",
+          name: "Alterne [BE/EE/DK]",
           location: "Nagyszínpad",
         },
         {
           time: "20:00",
-          name: "Obadu Live Act",
-          location: "Civil falu",
+          name: "Afrikora [SN]",
+          location: "Nagyszínpad",
         },
         {
           time: "20:30",
@@ -229,12 +244,17 @@ export const hu: LanguagePack = {
         },
         {
           time: "22:00",
-          name: "Zajnal",
-          location: "Romkocsma",
+          name: "Obadu",
+          location: "Nagyszínpad",
         },
         {
-          time: "23:00",
-          name: "Vonós és moldvai táncház",
+          time: "22:30",
+          name: "Zajnal",
+          location: "Nagyszínpad",
+        },
+        {
+          time: "23:30",
+          name: "Közös táncház",
           location: "Romkocsma",
         },
       ],
@@ -290,7 +310,7 @@ export const hu: LanguagePack = {
     {
       question:
         "Tömegközlekedéssel érkezem, hogyan közelítsem meg a helyszínt?",
-      answer: `Legegyszerűbb Budapestről vonattal lejutni. A menetrendet [megtalálod az Elvirán](https://elvira.mav-start.hu/)|Amennyiben máshonnan érkezel és elakadsz, [írj nekünk](${contactUrl}), igyekszünk segíteni.`,
+      answer: `Legegyszerűbb Budapestről vonattal lejutni. A menetrendet [megtalálod az Elvirán](https://elvira.mav-start.hu/).|Amennyiben máshonnan érkezel és elakadsz, [írj nekünk](${contactUrl}), igyekszünk segíteni.`,
     },
     {
       question: "Autóval érkezem, van lehetőség ingyen parkolásra?",
@@ -404,122 +424,142 @@ export const en: LanguagePack = {
   furtherProgrammeText: `[Folk music courses](${registrationFormUrl}) taught by members of the bands Góbé, Pásztorhóra, and Tindia, along with other invited teachers, as well as a folk dance course;|World music workshops with the performing artists;|Music industry development masterclasses;|Dance houses;|Civil village involving local and regional civil organizations.|We will announce the list of teachers and topics of workshops and masterclasses [on our Facebook page](https://www.facebook.com/boglartfeszt).`,
   programme: [
     {
-      day: "28 August 2024",
+      day: "Wednesday, 28 August",
       schedule: [
         {
-          time: "7:00 PM",
-          name: "Meybahar [HU/GR]",
+          time: "19:00",
+          name: "Góbé Folkside",
           location: "Main Stage",
         },
         {
-          time: "8:00 PM",
-          name: "Obadu Live Act",
-          location: "Civil Village",
-        },
-        {
-          time: "8:30 PM",
-          name: "Palatkai Banda [RO]",
+          time: "20:00",
+          name: "",
           location: "Main Stage",
         },
         {
-          time: "10:00 PM",
-          name: "Tindia",
-          location: "Ruin Pub",
+          time: "20:30",
+          name: "Palatkai band [RO]",
+          location: "Main Stage",
         },
         {
-          time: "11:00 PM",
-          name: "Vonós és moldvai táncház",
-          location: "Ruin Pub",
+          time: "22:00",
+          name: "",
+          location: "Main Stage",
+        },
+        {
+          time: "22:30",
+          name: "Kapcza",
+          location: "Main Stage",
+        },
+        {
+          time: "23:30",
+          name: "Dance house with the bands",
+          location: "Ruin pub",
         },
       ],
     },
     {
-      day: "29 August 2024",
+      day: "Thursday, 29 August",
       schedule: [
         {
-          time: "7:00 PM",
+          time: "19:00",
           name: "Boyongó",
           location: "Main Stage",
         },
         {
-          time: "8:00 PM",
-          name: "Obadu Live Act",
-          location: "Civil Village",
+          time: "20:00",
+          name: "Afrikora [SN]",
+          location: "Main Stage",
         },
         {
-          time: "8:30 PM",
+          time: "20:30",
           name: "Ferenczi György és az 1ső Pesti Rackák",
           location: "Main Stage",
         },
         {
-          time: "10:00 PM",
-          name: "Kapcza Banda",
-          location: "Ruin Pub",
+          time: "22:00",
+          name: "Obadu",
+          location: "Main Stage",
         },
         {
-          time: "11:00 PM",
-          name: "Vonós és moldvai táncház",
-          location: "Ruin Pub",
+          time: "22:30",
+          name: "Tindia",
+          location: "Main Stage",
+        },
+        {
+          time: "23:30",
+          name: "Dance house with the bands",
+          location: "Ruin pub",
         },
       ],
     },
     {
-      day: "30 August 2024",
+      day: "Friday, 30 August",
       schedule: [
         {
-          time: "7:00 PM",
+          time: "19:00",
           name: "Times New Román",
           location: "Main Stage",
         },
         {
-          time: "8:00 PM",
-          name: "Obadu Live Act",
-          location: "Civil Village",
+          time: "20:00",
+          name: "Afrikora [SN]",
+          location: "Main Stage",
         },
         {
-          time: "8:30 PM",
+          time: "20:30",
           name: "Poklade",
           location: "Main Stage",
         },
         {
-          time: "10:00 PM",
-          name: "Pásztorhóra",
-          location: "Ruin Pub",
+          time: "22:00",
+          name: "Obadu",
+          location: "Main Stage",
         },
         {
-          time: "11:00 PM",
-          name: "Vonós, moldvai és nemzetiségi táncház",
-          location: "Ruin Pub",
+          time: "22:30",
+          name: "Pásztorhóra",
+          location: "Main Stage",
+        },
+        {
+          time: "23:30",
+          name: "Dance house with the bands",
+          location: "Ruin pub",
         },
       ],
     },
     {
-      day: "31 August 2024",
+      day: "Saturday, 31 August",
       schedule: [
         {
-          time: "7:00 PM",
-          name: "Alterne Trio (BE/EE/DK)",
+          time: "19:00",
+          name: "Alterne [BE/EE/DK]",
           location: "Main Stage",
         },
         {
-          time: "8:00 PM",
-          name: "Obadu Live Act",
-          location: "Civil Village",
+          time: "20:00",
+          name: "Afrikora [SN]",
+          location: "Main Stage",
         },
         {
-          time: "8:30 PM",
+          time: "20:30",
           name: "Góbé",
           location: "Main Stage",
         },
         {
-          time: "10:00 PM",
-          name: "Zajnal",
-          location: "Ruin Pub",
+          time: "22:00",
+          name: "Obadu",
+          location: "Main Stage",
         },
         {
-          time: "11:00 PM",
-          name: "Vonós és moldvai táncház",
-          location: "Ruin Pub",
+          time: "22:30",
+          name: "Zajnal",
+          location: "Main Stage",
+        },
+        {
+          time: "23:30",
+          name: "Dance house with the bands",
+          location: "Ruin pub",
         },
       ],
     },
