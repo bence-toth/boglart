@@ -1,6 +1,7 @@
 import { useState, useEffect, useMemo } from "react";
 import { Helmet } from "react-helmet";
 
+import CookieConsent from "./CookieConsent";
 import Header from "./Header";
 import Banner from "./Banner";
 import Programme from "./Programme";
@@ -13,7 +14,7 @@ import { hu, en } from "./languagePack";
 
 import "./App.css";
 
-const isProtected = true;
+const isProtected = false;
 
 // TODO: Update favicon
 // TODO: Remove gh-pages "homepage" field from package.json
@@ -67,6 +68,7 @@ const App = () => {
           content="https://ia.media-imdb.com/images/rock.jpg"
         /> */}
       </Helmet>
+      <CookieConsent languagePack={languagePack} />
       <Header languagePack={languagePack} isEnglish={isEnglish} />
       <main>
         <Banner languagePack={languagePack} />

@@ -9,6 +9,7 @@ import "./FAQ.css";
 interface FAQProps {
   languagePack: LanguagePack;
 }
+
 const FAQ = ({ languagePack }: FAQProps) => (
   <section className="section-wrapper">
     <div className="section-inner-wrapper">

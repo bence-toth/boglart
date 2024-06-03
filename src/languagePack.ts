@@ -78,6 +78,10 @@ export interface LanguagePack {
       url: string;
     };
   };
+  cookieConsent: {
+    text: string;
+    button: string;
+  };
 }
 
 export const hu: LanguagePack = {
@@ -356,6 +360,10 @@ export const hu: LanguagePack = {
       url: "mailto:allearsmanagement@gmail.com",
     },
   },
+  cookieConsent: {
+    text: "Sütik használatával javítjuk a felhasználói élményt. Elfogadod az analitikai célú sütiket?",
+    button: "Elfogadom",
+  },
 };
 
 export const en: LanguagePack = {
@@ -633,5 +641,9 @@ export const en: LanguagePack = {
       caption: "Booking",
       url: "mailto:allearsmanagement@gmail.com",
     },
+  },
+  cookieConsent: {
+    text: "We use cookies to improve your experience. Do you accept analytics cookies?",
+    button: "Elfogadom",
   },
 };
