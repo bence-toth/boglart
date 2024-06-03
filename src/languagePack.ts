@@ -694,6 +694,6 @@ export const en: LanguagePack = {
   },
   cookieConsent: {
     text: "We use cookies to improve your experience. Do you accept analytics cookies?",
-    button: "Elfogadom",
+    button: "I accept",
   },
 };
