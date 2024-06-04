@@ -637,7 +637,7 @@ export const en: LanguagePack = {
       answer: `Of course, [reach out to us](${contactUrl}). We welcome all ideas, offers, contributions, and initiatives. Our festival is all about community building!`,
     },
   ],
-  supportersHeading: "Támogatók",
+  supportersHeading: "Supporters",
   supporters: [
     {
       name: "Halmos Béla Program",

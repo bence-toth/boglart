@@ -27,6 +27,7 @@
   text-transform: uppercase;
   font-size: 16px;
   border: 0;
+  white-space: nowrap;
 }
 
 .cookie-consent button:hover {
