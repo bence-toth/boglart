@@ -14,9 +14,6 @@ import { hu, en } from "./languagePack";
 
 import "./App.css";
 
-// TODO: Remove password protection
-const isProtected = true;
-
 const App = () => {
   // Redirect from http to https
   useEffect(() => {
@@ -36,20 +33,7 @@ const App = () => {
     setIsEnglish(languageParam === "en");
   }, []);
 
-  const [password, setPassword] = useState("");
-
   const languagePack = useMemo(() => (isEnglish ? en : hu), [isEnglish]);
-
-  if (isProtected && password !== "koszikoszi") {
-    return (
-      <input
-        value={password}
-        onChange={(event) => {
-          setPassword(event.target.value);
-        }}
-      />
-    );
-  }
 
   return (
     <div>

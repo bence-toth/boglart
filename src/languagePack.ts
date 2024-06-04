@@ -89,8 +89,6 @@ export interface LanguagePack {
   };
 }
 
-// TODO: Update concert schedule
-
 export const hu: LanguagePack = {
   meta: {
     description:
