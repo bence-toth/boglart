@@ -555,7 +555,7 @@ export const en: LanguagePack = {
   frequentlyAskedQuestions: [
     {
       question: "Can I camp on the festival grounds?",
-      answer: `Unfortunately, camping is not allowed within the festival area, but [you can book accommodations](${accommodationUrl}).|If you still prefer camping, you can do so [at this campsite](https://sellocamping.hu/) in Balatonboglár (about a 15-minute walk away from the festival)`,
+      answer: `Unfortunately, camping is not allowed within the festival area, but [you can book accommodations](${accommodationUrl}).|If you still prefer camping, you can do so [at this campsite](https://sellocamping.hu/) in Balatonboglár (about a 15-minute walk away from the festival).`,
     },
     {
       question: "Will there be dining options at the festival site?",
@@ -570,7 +570,7 @@ export const en: LanguagePack = {
     {
       question: "What is the duration of the tickets?",
       answer:
-        "Day tickets are valid from 9 AM on the given day until 10 AM the following day.|Weekend tickets are valid from 9 AM on Friday until noon on Sunday.|Week tickets are valid from 9 AM on Wednesday until noon on Sunday.|Course tickets are valid for the music and dance courses and workshops only, and are valid for the entire event when combined with festival tickets.|The validity period of the tickets does not affect accommodation bookings. New arrivals can check into their rooms from 2 PM.",
+        "Day tickets are valid from 9 AM on the given day until 10 AM the following day.|Weekend tickets are valid from 9 AM on Friday until noon on Sunday.|Week tickets are valid from 9 AM on Wednesday until noon on Sunday.|Course tickets are valid for the music and dance courses and workshops only, and are valid for the entire event when combined with festival tickets.|The validity period of the tickets is independent of your booked accommodation. New arrivals will be able to check in to their rooms from 2 PM.",
     },
     {
       question: "How many times can I enter and exit with my ticket?",
