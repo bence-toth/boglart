@@ -1,4 +1,4 @@
-import { useState, useCallback, useEffect } from "react";
+import { useCallback } from "react";
 
 import { loadGoogleAnalytics } from "./googleAnalytics";
 
@@ -11,22 +11,15 @@ interface CookieConsentProps {
 }
 
 const CookieConsent = ({ languagePack }: CookieConsentProps) => {
-  const [isAccepted, setIsAccepted] = useState(
-    localStorage.getItem("cookieAccepted") === "true"
-  );
+  const isAccepted = localStorage.getItem("cookieAccepted") === "true";
 
   const onAccept = useCallback(() => {
     localStorage.setItem("cookieAccepted", "true");
-    setIsAccepted(true);
+    window.location.reload();
   }, []);
 
-  useEffect(() => {
-    if (isAccepted) {
-      loadGoogleAnalytics();
-    }
-  }, [isAccepted]);
-
   if (isAccepted) {
+    loadGoogleAnalytics();
     return null;
   }
 

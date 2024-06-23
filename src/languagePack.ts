@@ -4,8 +4,6 @@ import BannerImageDesktopHu from "./banner-desktop-hu.jpg";
 import BannerImageDesktopEn from "./banner-desktop-en.jpg";
 import BannerImageMobileHu from "./banner-mobile-hu.jpg";
 import BannerImageMobileEn from "./banner-mobile-en.jpg";
-import MetaCardHu from "./meta-card-hu.jpg";
-import MetaCardEn from "./meta-card-en.jpg";
 
 import BabelCampLogo from "./supporter-babel-camp.png";
 import GobeLogo from "./supporter-gobe.png";
@@ -21,11 +19,8 @@ const contactUrl = "mailto:info@boglart.hu";
 
 export interface LanguagePack {
   meta: {
-    url: string;
-    baseUrl: string;
     description: string;
     keywords: string;
-    image: string;
   };
   otherLanguage: string;
   bannerImageDesktop: string;
@@ -94,9 +89,6 @@ export const hu: LanguagePack = {
     description:
       "Családias világzenei fesztivál és népzenei kurzus a Balaton partján",
     keywords: "fesztivál, világzene, népzene, kurzus, Balaton, Balatonboglár",
-    url: "https://boglart.hu",
-    baseUrl: "https://boglart.hu",
-    image: MetaCardHu,
   },
   otherLanguage: "English",
   bannerImageDesktop: BannerImageDesktopHu,
@@ -398,9 +390,6 @@ export const en: LanguagePack = {
     description:
       "Cozy world music festival and folk music camp on the shores of Lake Balaton",
     keywords: "festival, world music, folk music, Balaton, Balatonboglár",
-    url: "https://boglart.hu?language=en",
-    baseUrl: "https://boglart.hu",
-    image: MetaCardEn,
   },
   otherLanguage: "Magyar",
   bannerImageDesktop: BannerImageDesktopEn,

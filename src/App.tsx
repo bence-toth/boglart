@@ -41,13 +41,6 @@ const App = () => {
         <Helmet>
           <meta name="description" content={languagePack.meta.description} />
           <meta name="keywords" content={languagePack.meta.keywords} />
-          <meta property="og:title" content="Boglart" />
-          <meta property="og:type" content="website" />
-          <meta property="og:url" content={languagePack.meta.url} />
-          <meta
-            property="og:image"
-            content={`${languagePack.meta.baseUrl}${languagePack.meta.image}`}
-          />
         </Helmet>
       </HelmetProvider>
       <CookieConsent languagePack={languagePack} />
