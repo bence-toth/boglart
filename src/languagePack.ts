@@ -259,7 +259,7 @@ export const hu: LanguagePack = {
     {
       question: "Lesz étkezési lehetőség a fesztivál területén?",
       answer:
-        "Igen, többféle lehetőséggel is készülünk. Sajnos nincs lehetőségünk felkészülni speciális étrendekre (pl. vegán, gluténmentes), allergiákra, ilyen esetben nyugodtan hozd be a számodra megfelelő ételt, a megmelegítésben tudunk segíteni.|Természetesen alkoholmentes és alkoholos italok fogyasztására a koncerthelyszíneknél lesz lehetőség.",
+        "Igen, többféle lehetőséggel is készülünk. Sajnos nincs lehetőségünk felkészülni speciális étrendekre (pl. vegán, gluténmentes), allergiákra, ilyen esetben nyugodtan hozd be a számodra megfelelő ételt, a megmelegítésben tudunk segíteni.|Természetesen alkoholmentes és alkoholos italok vásárlására a koncerthelyszíneknél lesz lehetőség.",
     },
     {
       question: "Van étkezési vagy vásárlási lehetőség a településen?",
@@ -269,7 +269,7 @@ export const hu: LanguagePack = {
     {
       question: "Milyen időtartamra szólnak a jegyek?",
       answer:
-        "A napijegyek az adott napon reggel 9 órától a következő nap reggel 10 óráig szólnak.|A hétvégi jegyek péntek reggel 9 órától vasárnap délig szólnak.|A hetijegyek szerda reggel 9 órától vasárnap délig szólnak.|A kurzusjegyek csak a zenei, táncos kurzusra és a workshopokra szólnak, és a teljes rendezvényre a fesztivál jegyekkel együtt érvényesek.",
+        "A napijegyek az adott napon reggel 9 órától a következő nap reggel 10 óráig szólnak.|A hétvégi jegyek péntek reggel 9 órától vasárnap délig szólnak.|A hetijegyek szerda reggel 9 órától vasárnap délig szólnak.|A kurzusjegyek csak a zenei, táncos kurzusra és a workshopokra szólnak, és a teljes rendezvényre a fesztivál jegyekkel együtt érvényesek.|A jegyek érvényességi ideje nem érinti a szállásfoglalást. Az újonnan érkezők a szobájukatt 14 órától foglalhatják el.",
     },
     {
       question: "Hányszor közlekedhetek ki-be a jeggyel?",
@@ -305,7 +305,7 @@ export const hu: LanguagePack = {
     {
       question: "Autóval érkezem, van lehetőség ingyen parkolásra?",
       answer:
-        "Igen, korlátozott számban van parkolóhely a Babel Camp területén, és a településen számtalan helyen tudsz parkolni a közelben.",
+        "Igen, korlátozott számban van parkolóhely a Babel Camp területén, és a településen számtalan helyen tudsz parkolni a közelben. A városban a legtöbb parkolóhely fizetős.",
     },
     {
       question: "Mennyire akadálymentesített a fesztivál?",
@@ -570,7 +570,7 @@ export const en: LanguagePack = {
     {
       question: "What is the duration of the tickets?",
       answer:
-        "Day tickets are valid from 9 AM on the given day until 10 AM the following day.|Weekend tickets are valid from 9 AM on Friday until noon on Sunday.|Week tickets are valid from 9 AM on Wednesday until noon on Sunday.|Course tickets are valid for the music and dance courses and workshops only, and are valid for the entire event when combined with festival tickets.",
+        "Day tickets are valid from 9 AM on the given day until 10 AM the following day.|Weekend tickets are valid from 9 AM on Friday until noon on Sunday.|Week tickets are valid from 9 AM on Wednesday until noon on Sunday.|Course tickets are valid for the music and dance courses and workshops only, and are valid for the entire event when combined with festival tickets.|The validity period of the tickets does not affect accommodation bookings. New arrivals can check into their rooms from 2 PM.",
     },
     {
       question: "How many times can I enter and exit with my ticket?",
@@ -605,7 +605,7 @@ export const en: LanguagePack = {
     {
       question: "I am arriving by car, is there free parking available?",
       answer:
-        "Yes, there is a limited number of parking spaces at Babel Camp, and there are plenty of places to park nearby in the town.",
+        "Yes, there is a limited number of parking spaces at Babel Camp, and there are plenty of places to park nearby in the town. Most parking spaces in the city require a fee.",
     },
     {
       question: "Is the festival accessible?",
