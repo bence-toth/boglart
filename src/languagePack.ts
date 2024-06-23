@@ -134,7 +134,7 @@ export const hu: LanguagePack = {
         },
         {
           time: "22:30",
-          name: "Kapcza",
+          name: "Kaptza",
           location: "Nagyszínpad",
         },
         {
@@ -435,7 +435,7 @@ export const en: LanguagePack = {
         },
         {
           time: "22:30",
-          name: "Kapcza",
+          name: "Kaptza",
           location: "Main Stage",
         },
         {
