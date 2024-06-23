@@ -128,12 +128,12 @@ export const hu: LanguagePack = {
           location: "Nagyszínpad",
         },
         {
-          time: "22:00",
+          time: "21:45",
           name: "",
           location: "Nagyszínpad",
         },
         {
-          time: "22:30",
+          time: "22:15",
           name: "Kaptza",
           location: "Nagyszínpad",
         },
@@ -163,12 +163,12 @@ export const hu: LanguagePack = {
           location: "Nagyszínpad",
         },
         {
-          time: "22:00",
+          time: "21:45",
           name: "Obadu",
           location: "Nagyszínpad",
         },
         {
-          time: "22:30",
+          time: "22:15",
           name: "Tindia",
           location: "Nagyszínpad",
         },
@@ -198,12 +198,12 @@ export const hu: LanguagePack = {
           location: "Nagyszínpad",
         },
         {
-          time: "22:00",
+          time: "21:45",
           name: "Obadu",
           location: "Nagyszínpad",
         },
         {
-          time: "22:30",
+          time: "22:15",
           name: "Pásztorhóra",
           location: "Nagyszínpad",
         },
@@ -233,12 +233,12 @@ export const hu: LanguagePack = {
           location: "Nagyszínpad",
         },
         {
-          time: "22:00",
+          time: "21:45",
           name: "Obadu",
           location: "Nagyszínpad",
         },
         {
-          time: "22:30",
+          time: "22:15",
           name: "Zajnal",
           location: "Nagyszínpad",
         },
@@ -429,12 +429,12 @@ export const en: LanguagePack = {
           location: "Main Stage",
         },
         {
-          time: "22:00",
+          time: "21:45",
           name: "",
           location: "Main Stage",
         },
         {
-          time: "22:30",
+          time: "22:15",
           name: "Kaptza",
           location: "Main Stage",
         },
@@ -464,12 +464,12 @@ export const en: LanguagePack = {
           location: "Main Stage",
         },
         {
-          time: "22:00",
+          time: "21:45",
           name: "Obadu",
           location: "Main Stage",
         },
         {
-          time: "22:30",
+          time: "22:15",
           name: "Tindia",
           location: "Main Stage",
         },
@@ -499,12 +499,12 @@ export const en: LanguagePack = {
           location: "Main Stage",
         },
         {
-          time: "22:00",
+          time: "21:45",
           name: "Obadu",
           location: "Main Stage",
         },
         {
-          time: "22:30",
+          time: "22:15",
           name: "Pásztorhóra",
           location: "Main Stage",
         },
@@ -534,12 +534,12 @@ export const en: LanguagePack = {
           location: "Main Stage",
         },
         {
-          time: "22:00",
+          time: "21:45",
           name: "Obadu",
           location: "Main Stage",
         },
         {
-          time: "22:30",
+          time: "22:15",
           name: "Zajnal",
           location: "Main Stage",
         },
