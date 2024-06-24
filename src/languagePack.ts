@@ -138,7 +138,7 @@ export const hu: LanguagePack = {
           location: "Nagyszínpad",
         },
         {
-          time: "23:30",
+          time: "23:00",
           name: "Közös táncház",
           location: "Romkocsma",
         },
@@ -173,7 +173,7 @@ export const hu: LanguagePack = {
           location: "Nagyszínpad",
         },
         {
-          time: "23:30",
+          time: "23:00",
           name: "Közös táncház",
           location: "Romkocsma",
         },
@@ -208,7 +208,7 @@ export const hu: LanguagePack = {
           location: "Nagyszínpad",
         },
         {
-          time: "23:30",
+          time: "23:00",
           name: "Közös táncház",
           location: "Romkocsma",
         },
@@ -243,7 +243,7 @@ export const hu: LanguagePack = {
           location: "Nagyszínpad",
         },
         {
-          time: "23:30",
+          time: "23:00",
           name: "Közös táncház",
           location: "Romkocsma",
         },
@@ -439,7 +439,7 @@ export const en: LanguagePack = {
           location: "Main Stage",
         },
         {
-          time: "23:30",
+          time: "23:00",
           name: "Dance house with the bands",
           location: "Ruin pub",
         },
@@ -474,7 +474,7 @@ export const en: LanguagePack = {
           location: "Main Stage",
         },
         {
-          time: "23:30",
+          time: "23:00",
           name: "Dance house with the bands",
           location: "Ruin pub",
         },
@@ -509,7 +509,7 @@ export const en: LanguagePack = {
           location: "Main Stage",
         },
         {
-          time: "23:30",
+          time: "23:00",
           name: "Dance house with the bands",
           location: "Ruin pub",
         },
@@ -544,7 +544,7 @@ export const en: LanguagePack = {
           location: "Main Stage",
         },
         {
-          time: "23:30",
+          time: "23:00",
           name: "Dance house with the bands",
           location: "Ruin pub",
         },
