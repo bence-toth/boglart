@@ -189,7 +189,7 @@ export const hu: LanguagePack = {
         },
         {
           time: "20:00",
-          name: "Afrikora [SN]",
+          name: "Budapest Folk Duo",
           location: "Nagyszínpad",
         },
         {
@@ -234,7 +234,7 @@ export const hu: LanguagePack = {
         },
         {
           time: "21:45",
-          name: "Obadu",
+          name: "Budapest Folk Duo",
           location: "Nagyszínpad",
         },
         {
@@ -490,7 +490,7 @@ export const en: LanguagePack = {
         },
         {
           time: "20:00",
-          name: "Afrikora [SN]",
+          name: "Budapest Folk Duo",
           location: "Main Stage",
         },
         {
@@ -535,7 +535,7 @@ export const en: LanguagePack = {
         },
         {
           time: "21:45",
-          name: "Obadu",
+          name: "Budapest Folk Duo",
           location: "Main Stage",
         },
         {
