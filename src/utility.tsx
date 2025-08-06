@@ -1,5 +1,3 @@
-import { JSX } from "react";
-
 const parseAnnotatedString = (input: string): JSX.Element[] => {
   // Split the input string by | to separate paragraphs
   const paragraphs = input.split("|");
