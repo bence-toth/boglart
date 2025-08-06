@@ -14,7 +14,7 @@ import HagyomanyokHaza from "./supporter-hagyomanyok-haza.png";
 
 const accommodationUrl = "https://boglart.babelcamp.hu/#szallas";
 const houseRulesUrl = "https://boglart.babelcamp.hu/#hazirend";
-const registrationFormUrl = "https://forms.gle/qe8DUvJMWxkrQHCs6";
+const registrationFormUrl = "https://forms.gle/Z4y4g3CXbcJgaz8r9";
 const contactUrl = "mailto:info@boglart.hu";
 
 export interface LanguagePack {
@@ -96,7 +96,7 @@ export const hu: LanguagePack = {
   bannerAltText: "5. Boglart, 2024, Balatonboglár, Babel Camp",
   ticketPurchase: {
     caption: "Jegyvásárlás",
-    link: "https://tixa.hu/V_Boglart_Fesztival_20240828_Balatonboglar",
+    link: "https://www.tixa.hu/vi-boglart-fesztival-20250827",
   },
   socialMedia: {
     instagram: "https://www.instagram.com/boglart.feszt/",
@@ -397,7 +397,7 @@ export const en: LanguagePack = {
   bannerAltText: "5. Boglart, 2024, Balatonboglár, Babel Camp",
   ticketPurchase: {
     caption: "Tickets",
-    link: "https://tixa.hu/V_Boglart_Fesztival_20240828_Balatonboglar",
+    link: "https://www.tixa.hu/vi-boglart-fesztival-20250827",
   },
   socialMedia: {
     instagram: "https://www.instagram.com/boglart.feszt/",
