@@ -6,6 +6,7 @@
   width: 100%;
   font-family: var(--font-sans-serif);
   border-collapse: collapse;
+  margin-bottom: 2em;
 }
 
 .schedule-wrapper table.desktop-schedule {
@@ -24,7 +25,7 @@
 
 .schedule-wrapper table thead th {
   padding: 0.5em;
-  background-color: var(--color-purple-dark);
+  background-color: var(--color-turquoise-dark);
   color: var(--color-butter-light);
   text-align: center;
 }
@@ -36,7 +37,7 @@
 
 .schedule-wrapper table .header-row th {
   padding: 0.5em;
-  background-color: var(--color-purple-dark);
+  background-color: var(--color-turquoise-dark);
   color: var(--color-butter-light);
   text-align: center;
 }

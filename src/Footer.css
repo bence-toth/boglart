@@ -1,5 +1,5 @@
 .footer {
-  background-color: var(--color-purple-dark);
+  background-color: var(--color-turquoise-dark);
   color: var(--color-butter);
   padding: 1em;
 }
@@ -42,12 +42,17 @@
 }
 
 .footer .links a:is(:hover, :active, :focus) {
-  color: var(--color-yellow-light);
+  color: var(--color-butter-light);
+  text-decoration: underline;
 }
 
 .footer .links .social a {
   font-size: 1.5em;
   padding: 0.25em;
+}
+
+.footer .links .social a:is(:hover, :active, :focus) {
+  color: var(--color-red);
 }
 
 @media (width < 800px) {
