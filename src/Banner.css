@@ -3,8 +3,8 @@
   align-items: center;
   justify-content: center;
   padding: 1em;
-  color: var(--color-purple-dark);
-  background-color: var(--color-yellow-light);
+  color: var(--color-butter-light);
+  background-color: var(--color-red);
   font-family: var(--font-sans-serif);
   font-weight: bold;
   text-transform: uppercase;
@@ -13,7 +13,7 @@
 
 .header-navigation a.buy-ticket:is(:hover, :active, :focus) {
   background-color: var(--color-butter);
-  color: var(--color-purple-dark);
+  color: var(--color-turquoise-dark);
 }
 
 @media (width >= 640px) {
@@ -24,11 +24,12 @@
 
 .buy-ticket-wrapper a.buy-ticket:is(:hover, :active, :focus) {
   background-color: var(--color-butter);
-  color: var(--color-purple-dark);
+  color: var(--color-turquoise-dark);
 }
 
 .banner {
   display: flex;
+  border-bottom: 10px solid var(--color-turquoise-dark);
 }
 
 .banner img {
@@ -42,6 +43,10 @@
 }
 
 @media (width <= 720px) {
+  .banner {
+    border-bottom: 0;
+  }
+
   .banner img.desktop {
     display: none;
   }

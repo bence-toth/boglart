@@ -12,7 +12,7 @@
 
 .supporters a {
   display: block;
-  outline-color: var(--color-purple-light);
+  outline-color: var(--color-turquoise-light);
   outline-offset: 1em 0;
 }
 
