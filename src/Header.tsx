@@ -1,5 +1,5 @@
-import { AiFillFacebook as FacebookIcon } from "react-icons/ai";
-import { AiFillInstagram as InstagramIcon } from "react-icons/ai";
+import { AiFillFacebook } from "react-icons/ai";
+import { AiFillInstagram } from "react-icons/ai";
 
 import type { LanguagePack } from "./languagePack";
 
@@ -11,6 +11,11 @@ interface HeaderProps {
   languagePack: LanguagePack;
   isEnglish: boolean;
 }
+
+const FacebookIcon = AiFillFacebook as React.FC<React.SVGProps<SVGSVGElement>>;
+const InstagramIcon = AiFillInstagram as React.FC<
+  React.SVGProps<SVGSVGElement>
+>;
 
 const Header = ({ languagePack, isEnglish }: HeaderProps) => (
   <header className="header">
