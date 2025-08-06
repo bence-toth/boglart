@@ -93,7 +93,7 @@ export const hu: LanguagePack = {
   otherLanguage: "English",
   bannerImageDesktop: BannerImageDesktopHu,
   bannerImageMobile: BannerImageMobileHu,
-  bannerAltText: "5. Boglart, 2024, Balatonboglár, Babel Camp",
+  bannerAltText: "6. Boglart, 2025, Balatonboglár, Babel Camp",
   ticketPurchase: {
     caption: "Jegyvásárlás",
     link: "https://www.tixa.hu/vi-boglart-fesztival-20250827",
@@ -361,7 +361,7 @@ export const hu: LanguagePack = {
   ],
   mapTitle: "Babel Camp",
   footer: {
-    copyright: "© 2024, Góbé Kulturális Egyesület",
+    copyright: "© 2024-2025, Góbé Kulturális Egyesület",
     accommodation: {
       caption: "Szállásfoglalás",
       url: accommodationUrl,
@@ -394,7 +394,7 @@ export const en: LanguagePack = {
   otherLanguage: "Magyar",
   bannerImageDesktop: BannerImageDesktopEn,
   bannerImageMobile: BannerImageMobileEn,
-  bannerAltText: "5. Boglart, 2024, Balatonboglár, Babel Camp",
+  bannerAltText: "6. Boglart, 2025, Balatonboglár, Babel Camp",
   ticketPurchase: {
     caption: "Tickets",
     link: "https://www.tixa.hu/vi-boglart-fesztival-20250827",
@@ -661,7 +661,7 @@ export const en: LanguagePack = {
   ],
   mapTitle: "Babel Camp",
   footer: {
-    copyright: "© 2024, Góbé Kulturális Egyesület",
+    copyright: "© 2024-2025, Góbé Kulturális Egyesület",
     accommodation: {
       caption: "Accommodation",
       url: accommodationUrl,
