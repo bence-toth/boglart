@@ -19,11 +19,11 @@ body {
 
   --font-serif: "Libre Baskerville", serif;
   --font-sans-serif: "Rajdhani", sans-serif;
-  --color-turquoise: hsl(192, 98%, 28%);
-  --color-turquoise-light: hsl(192, 98%, 32%);
-  --color-turquoise-dark: hsl(192, 98%, 24%);
-  --color-butter: #ffe2b8;
-  --color-butter-light: #fbeed0;
+  --color-turquoise: #01718d;
+  --color-turquoise-light: #0282a2;
+  --color-turquoise-dark: #016179;
+  --color-butter: #ffeab8;
+  --color-butter-light: #fff0cc;
   --color-red: #ff1f1e;
   --color-red-light: #f86e6e;
   --color-red-dark: #c10000;
