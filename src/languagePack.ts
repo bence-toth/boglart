@@ -110,33 +110,23 @@ export const hu: LanguagePack = {
   furtherProgrammeText: `[Népzenei kurzusok](${registrationFormUrl}), amiket a Góbé, a Pásztorhóra és a Tindia zenekar tagjai tartanak egyéb meghívott tanárokkal, valamint néptánc kurzus;|Világzenei workshopok a fellépő előadókkal;|Zeneipari fejlesztő előadások;|Táncházak;|Civil falu a helyi és regionális civil szervezetek bevonásával.|A tanárok listáját, pontos előadásokat [a Facebook oldalunkon](https://www.facebook.com/boglartfeszt) hirdetjük.`,
   programme: [
     {
-      day: "Augusztus 28., szerda",
+      day: "Augusztus 27., szerda",
       schedule: [
+        { time: "18:30", name: "", location: "" },
         {
           time: "19:00",
-          name: "Góbé Folkside",
+          name: "Varga István „Kiscsipás” és zenekara (RO)",
           location: "Nagyszínpad",
         },
-        {
-          time: "20:00",
-          name: "",
-          location: "Nagyszínpad",
-        },
-        {
-          time: "20:30",
-          name: "Palatkai banda [RO]",
-          location: "Nagyszínpad",
-        },
-        {
-          time: "21:45",
-          name: "",
-          location: "Nagyszínpad",
-        },
-        {
-          time: "22:15",
-          name: "Kaptza",
-          location: "Nagyszínpad",
-        },
+        { time: "19:15", name: "", location: "" },
+        { time: "19:45", name: "", location: "" },
+        { time: "20:00", name: "Pontos (GR/HU)", location: "Nagyszínpad" },
+        { time: "20:15", name: "", location: "" },
+        { time: "20:30", name: "", location: "" },
+        { time: "21:00", name: "Kaptza", location: "Nagyszínpad" },
+        { time: "21:30", name: "", location: "" },
+        { time: "22:00", name: "", location: "" },
+        { time: "22:15", name: "Pásztorhóra", location: "Nagyszínpad" },
         {
           time: "23:00",
           name: "Közös táncház",
@@ -145,33 +135,23 @@ export const hu: LanguagePack = {
       ],
     },
     {
-      day: "Augusztus 29., csütörtök",
+      day: "Augusztus 28., csütörtök",
       schedule: [
-        {
-          time: "19:00",
-          name: "Boyongó",
-          location: "Nagyszínpad",
-        },
+        { time: "18:30", name: "Ysra", location: "Kisszínpad" },
+        { time: "19:00", name: "", location: "" },
+        { time: "19:15", name: "Wolfolks", location: "Nagyszínpad" },
+        { time: "19:45", name: "", location: "" },
         {
           time: "20:00",
-          name: "Afrikora [SN]",
-          location: "Nagyszínpad",
+          name: "Trio Playadito (ARG/HU)",
+          location: "Kisszínpad",
         },
-        {
-          time: "20:30",
-          name: "Ferenczi György és az 1ső Pesti Rackák",
-          location: "Nagyszínpad",
-        },
-        {
-          time: "21:45",
-          name: "Obadu",
-          location: "Nagyszínpad",
-        },
-        {
-          time: "22:15",
-          name: "Tindia",
-          location: "Nagyszínpad",
-        },
+        { time: "20:15", name: "", location: "" },
+        { time: "20:30", name: "Alterne (BE/DK/EE)", location: "Nagyszínpad" },
+        { time: "21:00", name: "", location: "" },
+        { time: "21:30", name: "Afrikora (SN)", location: "Kisszínpad" },
+        { time: "22:00", name: "Rézeleje", location: "Nagyszínpad" },
+        { time: "22:15", name: "", location: "" },
         {
           time: "23:00",
           name: "Közös táncház",
@@ -180,33 +160,19 @@ export const hu: LanguagePack = {
       ],
     },
     {
-      day: "Augusztus 30., péntek",
+      day: "Augusztus 29., péntek",
       schedule: [
-        {
-          time: "19:00",
-          name: "Times New Román",
-          location: "Nagyszínpad",
-        },
-        {
-          time: "20:00",
-          name: "Budapest Folk Duo",
-          location: "Nagyszínpad",
-        },
-        {
-          time: "20:30",
-          name: "Poklade",
-          location: "Nagyszínpad",
-        },
-        {
-          time: "21:45",
-          name: "Obadu",
-          location: "Nagyszínpad",
-        },
-        {
-          time: "22:15",
-          name: "Pásztorhóra",
-          location: "Nagyszínpad",
-        },
+        { time: "18:30", name: "Budapest Folk Duo", location: "Kisszínpad" },
+        { time: "19:00", name: "Amaro Duho", location: "Nagyszínpad" },
+        { time: "19:15", name: "", location: "" },
+        { time: "19:45", name: "Okos Viola", location: "Kisszínpad" },
+        { time: "20:00", name: "", location: "" },
+        { time: "20:15", name: "Veja (HR)", location: "Nagyszínpad" },
+        { time: "20:30", name: "", location: "" },
+        { time: "21:00", name: "", location: "" },
+        { time: "21:30", name: "Obadu", location: "Kisszínpad" },
+        { time: "22:00", name: "Zajnal", location: "Nagyszínpad" },
+        { time: "22:15", name: "", location: "" },
         {
           time: "23:00",
           name: "Közös táncház",
@@ -215,33 +181,23 @@ export const hu: LanguagePack = {
       ],
     },
     {
-      day: "Augusztus 31., szombat",
+      day: "Augusztus 30., szombat",
       schedule: [
+        { time: "18:30", name: "Roma Big Band", location: "Kisszínpad" },
+        { time: "19:00", name: "Puli", location: "Nagyszínpad" },
+        { time: "19:15", name: "", location: "" },
+        { time: "19:45", name: "Akleja (DE)", location: "Kisszínpad" },
+        { time: "20:00", name: "Góbé", location: "Nagyszínpad" },
+        { time: "20:15", name: "", location: "" },
+        { time: "20:30", name: "", location: "" },
+        { time: "21:00", name: "Akleja (DE)", location: "Kisszínpad" },
+        { time: "21:30", name: "", location: "" },
         {
-          time: "19:00",
-          name: "Alterne [BE/EE/DK]",
+          time: "22:00",
+          name: "Cimbalom Guachacha (CL)",
           location: "Nagyszínpad",
         },
-        {
-          time: "20:00",
-          name: "Afrikora [SN]",
-          location: "Nagyszínpad",
-        },
-        {
-          time: "20:30",
-          name: "Góbé",
-          location: "Nagyszínpad",
-        },
-        {
-          time: "21:45",
-          name: "Budapest Folk Duo",
-          location: "Nagyszínpad",
-        },
-        {
-          time: "22:15",
-          name: "Zajnal",
-          location: "Nagyszínpad",
-        },
+        { time: "22:15", name: "", location: "" },
         {
           time: "23:00",
           name: "Közös táncház",
@@ -411,33 +367,23 @@ export const en: LanguagePack = {
   furtherProgrammeText: `[Folk music courses](${registrationFormUrl}) taught by members of the bands Góbé, Pásztorhóra, and Tindia, along with other invited teachers, as well as a folk dance course;|World music workshops with the performing artists;|Music industry development masterclasses;|Dance houses;|Civil village involving local and regional civil organizations.|We will announce the list of teachers and topics of workshops and masterclasses [on our Facebook page](https://www.facebook.com/boglartfeszt).`,
   programme: [
     {
-      day: "Wednesday, 28 August",
+      day: "Wednesday, 27 August",
       schedule: [
+        { time: "18:30", name: "", location: "" },
         {
           time: "19:00",
-          name: "Góbé Folkside",
+          name: "Varga István „Kiscsipás” és zenekara (RO)",
           location: "Main Stage",
         },
-        {
-          time: "20:00",
-          name: "",
-          location: "Main Stage",
-        },
-        {
-          time: "20:30",
-          name: "Palatkai band [RO]",
-          location: "Main Stage",
-        },
-        {
-          time: "21:45",
-          name: "",
-          location: "Main Stage",
-        },
-        {
-          time: "22:15",
-          name: "Kaptza",
-          location: "Main Stage",
-        },
+        { time: "19:15", name: "", location: "" },
+        { time: "19:45", name: "", location: "" },
+        { time: "20:00", name: "Pontos (GR/HU)", location: "Main Stage" },
+        { time: "20:15", name: "", location: "" },
+        { time: "20:30", name: "", location: "" },
+        { time: "21:00", name: "Kaptza", location: "Main Stage" },
+        { time: "21:30", name: "", location: "" },
+        { time: "22:00", name: "", location: "" },
+        { time: "22:15", name: "Pásztorhóra", location: "Main Stage" },
         {
           time: "23:00",
           name: "Dance house with the bands",
@@ -446,33 +392,23 @@ export const en: LanguagePack = {
       ],
     },
     {
-      day: "Thursday, 29 August",
+      day: "Thursday, 28 August",
       schedule: [
-        {
-          time: "19:00",
-          name: "Boyongó",
-          location: "Main Stage",
-        },
+        { time: "18:30", name: "Ysra", location: "Small Stage" },
+        { time: "19:00", name: "", location: "" },
+        { time: "19:15", name: "Wolfolks", location: "Main Stage" },
+        { time: "19:45", name: "", location: "" },
         {
           time: "20:00",
-          name: "Afrikora [SN]",
-          location: "Main Stage",
+          name: "Trio Playadito (ARG/HU)",
+          location: "Small Stage",
         },
-        {
-          time: "20:30",
-          name: "Ferenczi György és az 1ső Pesti Rackák",
-          location: "Main Stage",
-        },
-        {
-          time: "21:45",
-          name: "Obadu",
-          location: "Main Stage",
-        },
-        {
-          time: "22:15",
-          name: "Tindia",
-          location: "Main Stage",
-        },
+        { time: "20:15", name: "", location: "" },
+        { time: "20:30", name: "Alterne (BE/DK/EE)", location: "Main Stage" },
+        { time: "21:00", name: "", location: "" },
+        { time: "21:30", name: "Afrikora (SN)", location: "Small Stage" },
+        { time: "22:00", name: "Rézeleje", location: "Main Stage" },
+        { time: "22:15", name: "", location: "" },
         {
           time: "23:00",
           name: "Dance house with the bands",
@@ -481,33 +417,19 @@ export const en: LanguagePack = {
       ],
     },
     {
-      day: "Friday, 30 August",
+      day: "Friday, 29 August",
       schedule: [
-        {
-          time: "19:00",
-          name: "Times New Román",
-          location: "Main Stage",
-        },
-        {
-          time: "20:00",
-          name: "Budapest Folk Duo",
-          location: "Main Stage",
-        },
-        {
-          time: "20:30",
-          name: "Poklade",
-          location: "Main Stage",
-        },
-        {
-          time: "21:45",
-          name: "Obadu",
-          location: "Main Stage",
-        },
-        {
-          time: "22:15",
-          name: "Pásztorhóra",
-          location: "Main Stage",
-        },
+        { time: "18:30", name: "Budapest Folk Duo", location: "Small Stage" },
+        { time: "19:00", name: "Amaro Duho", location: "Main Stage" },
+        { time: "19:15", name: "", location: "" },
+        { time: "19:45", name: "Okos Viola", location: "Small Stage" },
+        { time: "20:00", name: "", location: "" },
+        { time: "20:15", name: "Veja (HR)", location: "Main Stage" },
+        { time: "20:30", name: "", location: "" },
+        { time: "21:00", name: "", location: "" },
+        { time: "21:30", name: "Obadu", location: "Small Stage" },
+        { time: "22:00", name: "Zajnal", location: "Main Stage" },
+        { time: "22:15", name: "", location: "" },
         {
           time: "23:00",
           name: "Dance house with the bands",
@@ -516,33 +438,23 @@ export const en: LanguagePack = {
       ],
     },
     {
-      day: "Saturday, 31 August",
+      day: "Saturday, 30 August",
       schedule: [
+        { time: "18:30", name: "Roma Big Band", location: "Small Stage" },
+        { time: "19:00", name: "Puli", location: "Main Stage" },
+        { time: "19:15", name: "", location: "" },
+        { time: "19:45", name: "Akleja (DE)", location: "Small Stage" },
+        { time: "20:00", name: "Góbé", location: "Main Stage" },
+        { time: "20:15", name: "", location: "" },
+        { time: "20:30", name: "", location: "" },
+        { time: "21:00", name: "Akleja (DE)", location: "Small Stage" },
+        { time: "21:30", name: "", location: "" },
         {
-          time: "19:00",
-          name: "Alterne [BE/EE/DK]",
+          time: "22:00",
+          name: "Cimbalom Guachacha (CL)",
           location: "Main Stage",
         },
-        {
-          time: "20:00",
-          name: "Afrikora [SN]",
-          location: "Main Stage",
-        },
-        {
-          time: "20:30",
-          name: "Góbé",
-          location: "Main Stage",
-        },
-        {
-          time: "21:45",
-          name: "Budapest Folk Duo",
-          location: "Main Stage",
-        },
-        {
-          time: "22:15",
-          name: "Zajnal",
-          location: "Main Stage",
-        },
+        { time: "22:15", name: "", location: "" },
         {
           time: "23:00",
           name: "Dance house with the bands",
