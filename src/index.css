@@ -19,9 +19,9 @@ body {
 
   --font-serif: "Libre Baskerville", serif;
   --font-sans-serif: "Rajdhani", sans-serif;
-  --color-turquoise: #176e78;
-  --color-turquoise-light: #308184;
-  --color-turquoise-dark: #12575e;
+  --color-turquoise: hsl(192, 98%, 28%);
+  --color-turquoise-light: hsl(192, 98%, 32%);
+  --color-turquoise-dark: hsl(192, 98%, 24%);
   --color-butter: #ffe2b8;
   --color-butter-light: #fbeed0;
   --color-red: #ff1f1e;
