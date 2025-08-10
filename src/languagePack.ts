@@ -12,7 +12,7 @@ import HalmosBelaProgram from "./supporter-halmos-bela-program.png";
 import NemzetiKulturalisAlap from "./supporter-nemzeti-kulturalis-alap.png";
 import HagyomanyokHaza from "./supporter-hagyomanyok-haza.png";
 
-const accommodationUrl = "https://boglart.babelcamp.hu/#szallas";
+const accommodationUrl = "mailto:hospitality.babelcamp@gmail.com";
 const houseRulesUrl = "https://boglart.babelcamp.hu/#hazirend";
 const registrationFormUrl = "https://forms.gle/Z4y4g3CXbcJgaz8r9";
 const contactUrl = "mailto:info@boglart.hu";
