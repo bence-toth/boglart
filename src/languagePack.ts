@@ -11,10 +11,11 @@ import GyongyviragosLogo from "./supporter-gyongyviragos-folkmuhely.png";
 import HalmosBelaProgram from "./supporter-halmos-bela-program.png";
 import NemzetiKulturalisAlap from "./supporter-nemzeti-kulturalis-alap.png";
 import HagyomanyokHaza from "./supporter-hagyomanyok-haza.png";
+import UpbeatLogo from "./supporter-upbeat.png";
 
-const accommodationUrl = "mailto:hospitality.babelcamp@gmail.com";
+const accommodationUrl = "https://boglart.babelcamp.hu/";
 const houseRulesUrl = "https://boglart.babelcamp.hu/#hazirend";
-const registrationFormUrl = "https://forms.gle/Z4y4g3CXbcJgaz8r9";
+const registrationFormUrl = "https://forms.gle/errcBh6oucDcNbGP7";
 const contactUrl = "mailto:info@boglart.hu";
 
 export interface LanguagePack {
@@ -45,6 +46,14 @@ export interface LanguagePack {
       time: string;
       name: string;
       location: string;
+    }[];
+  }[];
+  morningProgrammeHeading: string;
+  morningProgramme: {
+    day: string;
+    schedule: {
+      time: string;
+      name: string;
     }[];
   }[];
   frequentlyAskedQuestionsHeading: string;
@@ -93,10 +102,10 @@ export const hu: LanguagePack = {
   otherLanguage: "English",
   bannerImageDesktop: BannerImageDesktopHu,
   bannerImageMobile: BannerImageMobileHu,
-  bannerAltText: "6. Boglart, 2025, Balatonboglár, Babel Camp",
+  bannerAltText: "7. Boglart, 2026, Balatonboglár, Babel Camp",
   ticketPurchase: {
     caption: "Jegyvásárlás",
-    link: "https://www.tixa.hu/vi-boglart-fesztival-20250827",
+    link: "https://www.tixa.hu/vii-boglart-fesztival-20260812",
   },
   socialMedia: {
     instagram: "https://www.instagram.com/boglart.feszt/",
@@ -107,102 +116,109 @@ export const hu: LanguagePack = {
     "A Boglart egy családias fesztivál a Balaton partján. Különlegessége, hogy egyszerre népzenei kurzus, világzenei fesztivál és zeneipari fórum; az alkotók és a közönség egy térben találkozhatnak, beszélgethetnek, szórakozhatnak, eszmét cserélhetnek. A rendezvényt a közösség hozza létre, a népzenét tanulók is részt vesznek a közös táncházakban, a fellépő előadók mesterkurzusokat tartanak, az oktatók saját zenekaraikkal is koncerteznek. A programok nyilvánosak, a közönség megtapasztalhatja a művészek életének különböző oldalait, emellett a fiatal zenészek számára is szakmai fejlődési lehetőséget nyújt. A Babel Camp hangulatos, vadregényes helyszíne kiválóan alkalmas arra, hogy nyugodt, meghitt és változatos négy napot lehessen eltölteni a fesztiválon.",
   programmeHeading: "Koncertek",
   furtherProgrammeHeading: "Programok",
-  furtherProgrammeText: `[Népzenei kurzusok](${registrationFormUrl}), amiket a Góbé és a Pásztorhóra zenekar tagjai tartanak egyéb meghívott tanárokkal, valamint néptánc kurzus;|Világzenei workshopok a fellépő előadókkal;|Zeneipari fejlesztő előadások;|Táncházak;|Civil falu a helyi és regionális civil szervezetek bevonásával.|A tanárok listáját, pontos előadásokat [a Facebook oldalunkon](https://www.facebook.com/boglartfeszt) hirdetjük.|Idén is várnak különféle zeneipari előadások, networking lehetőségek, ezúttal külföldi meghívottakkal.|Külföldi kiemelt vendégeink:|• Ronja Grafström (SWE) – zenész, zenepedagógus, szervező|• Lee Taul (EE) – a Viljandi Folk Music Festival fiatal zenekarokért felelős szervezője, zenész, zenepedagógus|• Kirsika Meresmaa (EE) – a Viljandi Folk Music Festival egyik munkatársa, zenei menedzser|• Horváth Tamás (RS) – a Malomfesztivál főszervezője|• Kathryn Döhner és Christopher Schloebeck (DE) – a leisnigi Kulturbahnhof klub vezetői|• Gondi Mátyás (RO) – a Double Rise fesztivál főszervezője`,
+  furtherProgrammeText: `[Népzenei kurzusok](${registrationFormUrl}), amiket a Góbé és a Pásztorhóra zenekar tagjai tartanak egyéb meghívott tanárokkal, valamint néptánc kurzus;|Világzenei workshopok a fellépő előadókkal;|Zeneipari fejlesztő előadások;|Táncházak;|Civil falu a helyi és regionális civil szervezetek bevonásával.|A tanárok listáját, pontos előadásokat [a Facebook oldalunkon](https://www.facebook.com/boglartfeszt) hirdetjük.|Idén is várnak különféle zeneipari előadások, networking lehetőségek, ezúttal külföldi meghívottakkal..`,
   programme: [
     {
-      day: "Augusztus 27., szerda",
+      day: "Augusztus 26., szerda",
       schedule: [
         { time: "18:30", name: "", location: "" },
-        {
-          time: "19:00",
-          name: "Varga István „Kiscsipás” és zenekara (RO)",
-          location: "Nagyszínpad",
-        },
-        { time: "19:15", name: "", location: "" },
-        { time: "19:45", name: "", location: "" },
-        { time: "20:00", name: "Pontos (GR/HU)", location: "Nagyszínpad" },
-        { time: "20:15", name: "", location: "" },
-        { time: "20:30", name: "", location: "" },
-        { time: "21:00", name: "Kaptza", location: "Nagyszínpad" },
-        { time: "21:30", name: "", location: "" },
-        { time: "22:00", name: "", location: "" },
-        { time: "22:15", name: "Pásztorhóra", location: "Nagyszínpad" },
-        {
-          time: "23:00",
-          name: "Közös táncház",
-          location: "Romkocsma",
-        },
-      ],
-    },
-    {
-      day: "Augusztus 28., csütörtök",
-      schedule: [
-        { time: "18:30", name: "Ysra", location: "Kisszínpad" },
+        { time: "18:45", name: "Yi-Wei Yang (TW)", location: "Kisszínpad" },
         { time: "19:00", name: "", location: "" },
-        { time: "19:15", name: "Wolfolks", location: "Nagyszínpad" },
-        { time: "19:45", name: "", location: "" },
-        {
-          time: "20:00",
-          name: "Trio Playadito (AR/HU)",
-          location: "Kisszínpad",
-        },
+        { time: "19:15", name: "Narun & friends (HU/GR)", location: "Romkocsma" },        { time: "19:45", name: "", location: "" },
+        { time: "20:00", name: "3B", location: "Kisszínpad" },
         { time: "20:15", name: "", location: "" },
-        { time: "20:30", name: "Alterne (BE/DK/EE)", location: "Nagyszínpad" },
-        { time: "21:00", name: "", location: "" },
-        { time: "21:30", name: "Afrikora (SN)", location: "Kisszínpad" },
-        { time: "22:00", name: "Rézeleje", location: "Nagyszínpad" },
-        { time: "22:15", name: "", location: "" },
-        {
-          time: "23:00",
-          name: "Közös táncház",
-          location: "Romkocsma",
-        },
+        { time: "20:30", name: "BashElán", location: "Színpad" },        { time: "21:30", name: "Stobos", location: "Kisszínpad" },        { time: "22:00", name: "Zajnal", location: "Színpad" },
+        { time: "22:15", name: "", location: "" },        { time: "23:15", name: "Táncház — Házigazda: Kaptza", location: "Romkocsma" },
       ],
     },
     {
-      day: "Augusztus 29., péntek",
+      day: "Augusztus 27., csütörtök",
       schedule: [
-        { time: "18:30", name: "Budapest Folk Duo", location: "Kisszínpad" },
-        { time: "19:00", name: "Amaro Duho", location: "Nagyszínpad" },
-        { time: "19:15", name: "", location: "" },
-        { time: "19:45", name: "Okos Viola", location: "Kisszínpad" },
+        { time: "18:30", name: "", location: "" },
+        { time: "18:45", name: "Okos Viola", location: "Kisszínpad" },
+        { time: "19:00", name: "", location: "" },
+        { time: "19:15", name: "Korinda", location: "Nagyszínpad" },        { time: "19:45", name: "", location: "" },
+        { time: "20:00", name: "Durgesh Kanwal (IN)", location: "Kisszínpad" },
+        { time: "20:15", name: "", location: "" },
+        { time: "20:30", name: "Enara Navaira (BE)", location: "Nagyszínpad" },        { time: "21:30", name: "Budapest Folk Duó", location: "Kisszínpad" },        { time: "22:00", name: "Rézeleje", location: "Nagyszínpad" },
+        { time: "22:15", name: "", location: "" },        { time: "23:15", name: "Táncház — Házigazda: Kaptza", location: "Romkocsma" },
+      ],
+    },
+    {
+      day: "Augusztus 28., péntek",
+      schedule: [
+        { time: "18:30", name: "", location: "" },
+        { time: "18:45", name: "Lua Balagué (AR)", location: "Kisszínpad" },
+        { time: "19:00", name: "", location: "" },
+        { time: "19:15", name: "Puli", location: "Nagyszínpad" },        { time: "19:45", name: "", location: "" },
+        { time: "20:00", name: "Duo Compass (EE/UK)", location: "Kisszínpad" },
+        { time: "20:15", name: "", location: "" },
+        { time: "20:30", name: "Jezve (PL/GR/HU)", location: "Nagyszínpad" },        { time: "21:30", name: "Dil Mastana (IN)", location: "Kisszínpad" },        { time: "22:00", name: "", location: "" },
+        { time: "22:15", name: "Glencz", location: "Nagyszínpad" },        { time: "23:15", name: "Táncház — Házigazda: Kaptza", location: "Romkocsma" },
+      ],
+    },
+    {
+      day: "Augusztus 29., szombat",
+      schedule: [
+        { time: "18:30", name: "Regina Mänd (EE)", location: "Romkocsma" },
+        { time: "18:45", name: "", location: "" },
+        { time: "19:00", name: "Pontos (GR/HU)", location: "Nagyszínpad" },
+        { time: "19:15", name: "", location: "" },        { time: "19:45", name: "Los Puros Criollos (CO)", location: "Romkocsma" },
         { time: "20:00", name: "", location: "" },
-        { time: "20:15", name: "Veja (HR)", location: "Nagyszínpad" },
-        { time: "20:30", name: "", location: "" },
-        { time: "21:00", name: "", location: "" },
-        { time: "21:30", name: "Obadu", location: "Kisszínpad" },
-        { time: "22:00", name: "Zajnal", location: "Nagyszínpad" },
-        { time: "22:15", name: "", location: "" },
-        {
-          time: "23:00",
-          name: "Közös táncház",
-          location: "Romkocsma",
-        },
+        { time: "20:15", name: "Góbé", location: "Nagyszínpad" },
+        { time: "20:30", name: "", location: "" },        { time: "21:30", name: "Obadu", location: "Kisszínpad" },        { time: "22:00", name: "Veja (HR)", location: "Nagyszínpad" },
+        { time: "22:15", name: "", location: "" },        { time: "23:15", name: "Táncház — Házigazda: Kaptza", location: "Romkocsma" },
+      ],
+    },
+  ],
+  morningProgrammeHeading: "Délelőtti programok",
+  morningProgramme: [
+    {
+      day: "Augusztus 26., szerda",
+      schedule: [
+        { time: "9:00", name: "Érkezés" },
+        { time: "10:00", name: "" },
+        { time: "11:00", name: "Bemutatkozás, regisztráció" },
+        { time: "12:00", name: "Oktatás: hangszer, ének, tánc" },
+        { time: "14:30", name: "Oktatás" },
+        { time: "16:00", name: "" },
+        { time: "17:00", name: "Zenei workshop" },
       ],
     },
     {
-      day: "Augusztus 30., szombat",
+      day: "Augusztus 27., csütörtök",
       schedule: [
-        { time: "18:30", name: "Roma Big Band", location: "Kisszínpad" },
-        { time: "19:00", name: "Puli", location: "Nagyszínpad" },
-        { time: "19:15", name: "", location: "" },
-        { time: "19:45", name: "Akleja (DE)", location: "Kisszínpad" },
-        { time: "20:00", name: "Góbé", location: "Nagyszínpad" },
-        { time: "20:15", name: "", location: "" },
-        { time: "20:30", name: "", location: "" },
-        { time: "21:00", name: "Akleja (DE)", location: "Kisszínpad" },
-        { time: "21:30", name: "", location: "" },
-        {
-          time: "22:00",
-          name: "Cimbalom Guachacha (CL)",
-          location: "Nagyszínpad",
-        },
-        { time: "22:15", name: "", location: "" },
-        {
-          time: "23:00",
-          name: "Közös táncház",
-          location: "Romkocsma",
-        },
+        { time: "9:00", name: "Reggeli" },
+        { time: "10:00", name: "Oktatás" },
+        { time: "10:30", name: "Zeneipari workshopok előadóknak" },
+        { time: "12:00", name: "Zeneipari előadás" },
+        { time: "14:00", name: "Oktatás / Mentoring session" },
+        { time: "16:00", name: "Kerekasztal beszélgetés" },
+        { time: "17:00", name: "Songlab session" },
+      ],
+    },
+    {
+      day: "Augusztus 28., péntek",
+      schedule: [
+        { time: "9:00", name: "Reggeli" },
+        { time: "10:00", name: "Oktatás" },
+        { time: "10:30", name: "Zeneipari workshopok előadóknak" },
+        { time: "12:00", name: "Zeneipari előadás" },
+        { time: "14:00", name: "Oktatás / Speed Meeting, Networking" },
+        { time: "16:00", name: "Kerekasztal beszélgetés" },
+        { time: "17:00", name: "Songlab session" },
+      ],
+    },
+    {
+      day: "Augusztus 29., szombat",
+      schedule: [
+        { time: "9:00", name: "Reggeli" },
+        { time: "10:00", name: "Oktatás" },
+        { time: "10:30", name: "" },
+        { time: "12:00", name: "Zeneipari előadás" },
+        { time: "14:00", name: "Oktatás" },
+        { time: "16:00", name: "Kerekasztal beszélgetés" },
+        { time: "17:00", name: "Songlab session" },
       ],
     },
   ],
@@ -314,10 +330,15 @@ export const hu: LanguagePack = {
       logo: HagyomanyokHaza,
       url: "https://hagyomanyokhaza.hu/hu",
     },
+    {
+      name: "Upbeat",
+      logo: UpbeatLogo,
+      url: "https://upbeat-platform.eu/",
+    },
   ],
   mapTitle: "Babel Camp",
   footer: {
-    copyright: "© 2024-2025, Góbé Kulturális Egyesület",
+    copyright: "© 2024-2026, Góbé Kulturális Egyesület",
     accommodation: {
       caption: "Szállásfoglalás",
       url: accommodationUrl,
@@ -350,10 +371,10 @@ export const en: LanguagePack = {
   otherLanguage: "Magyar",
   bannerImageDesktop: BannerImageDesktopEn,
   bannerImageMobile: BannerImageMobileEn,
-  bannerAltText: "6. Boglart, 2025, Balatonboglár, Babel Camp",
+  bannerAltText: "7. Boglart, 2026, Balatonboglár, Babel Camp",
   ticketPurchase: {
     caption: "Tickets",
-    link: "https://www.tixa.hu/vi-boglart-fesztival-20250827",
+    link: "https://www.tixa.hu/vii-boglart-fesztival-20260812",
   },
   socialMedia: {
     instagram: "https://www.instagram.com/boglart.feszt/",
@@ -364,102 +385,109 @@ export const en: LanguagePack = {
     "Boglart is a family-friendly festival on the shores of Lake Balaton. Its uniqueness lies in being simultaneously a folk music course, a world music festival, and a music industry forum; it offers a safe space where creators and the audience can meet, converse, enjoy themselves, and exchange ideas. The event is community-driven, with folk music learners participating in dance houses, performers giving masterclasses, and instructors also performing with their own bands. The programs are open to the public, allowing the audience to experience different aspects of the artists’ lives while providing young musicians with opportunities for professional development. The charming, wild setting of Babel Camp is perfect for spending a peaceful, intimate, and diverse four days at the festival.",
   programmeHeading: "Concerts",
   furtherProgrammeHeading: "Programmes",
-  furtherProgrammeText: `[Folk music courses](${registrationFormUrl}) taught by members of the bands Góbé and Pásztorhóra, along with other invited teachers, as well as a folk dance course;|World music workshops with the performing artists;|Music industry development masterclasses;|Dance houses;|Civil village involving local and regional civil organizations.|We will announce the list of teachers and topics of workshops and masterclasses [on our Facebook page](https://www.facebook.com/boglartfeszt).|This year will once again feature various music industry talks, networking opportunities, and this time, international guests.|Our highlighted international guests:|• Ronja Grafström (SWE) – musician, music educator, organizer|• Lee Taul (EE) – organizer responsible for young bands at the Viljandi Folk Music Festival, musician, music educator|• Kirsika Meresmaa (EE) – team member of the Viljandi Folk Music Festival, music manager|• Tamás Horváth (RS) – main organizer of the Malom Festival|• Kathryn Döhner and Christopher Schloebeck (DE) – managers of the Kulturbahnhof club in Leisnig|• Mátyás Gondi (RO) – main organizer of the Double Rise Festival`,
+  furtherProgrammeText: `[Folk music courses](${registrationFormUrl}) taught by members of the bands Góbé and Pásztorhóra, along with other invited teachers, as well as a folk dance course;|World music workshops with the performing artists;|Music industry development masterclasses;|Dance houses;|Civil village involving local and regional civil organizations.|We will announce the list of teachers and topics of workshops and masterclasses [on our Facebook page](https://www.facebook.com/boglartfeszt).|This year will once again feature various music industry talks, networking opportunities, and this time, international guests..`,
   programme: [
     {
-      day: "Wednesday, 27 August",
+      day: "Wednesday, 26 August",
       schedule: [
         { time: "18:30", name: "", location: "" },
-        {
-          time: "19:00",
-          name: "Varga István „Kiscsipás” és zenekara (RO)",
-          location: "Main Stage",
-        },
-        { time: "19:15", name: "", location: "" },
-        { time: "19:45", name: "", location: "" },
-        { time: "20:00", name: "Pontos (GR/HU)", location: "Main Stage" },
-        { time: "20:15", name: "", location: "" },
-        { time: "20:30", name: "", location: "" },
-        { time: "21:00", name: "Kaptza", location: "Main Stage" },
-        { time: "21:30", name: "", location: "" },
-        { time: "22:00", name: "", location: "" },
-        { time: "22:15", name: "Pásztorhóra", location: "Main Stage" },
-        {
-          time: "23:00",
-          name: "Dance house with the bands",
-          location: "Ruin pub",
-        },
-      ],
-    },
-    {
-      day: "Thursday, 28 August",
-      schedule: [
-        { time: "18:30", name: "Ysra", location: "Small Stage" },
+        { time: "18:45", name: "Yi-Wei Yang (TW)", location: "Small Stage" },
         { time: "19:00", name: "", location: "" },
-        { time: "19:15", name: "Wolfolks", location: "Main Stage" },
-        { time: "19:45", name: "", location: "" },
-        {
-          time: "20:00",
-          name: "Trio Playadito (AR/HU)",
-          location: "Small Stage",
-        },
+        { time: "19:15", name: "Narun & friends (HU/GR)", location: "Ruin pub" },        { time: "19:45", name: "", location: "" },
+        { time: "20:00", name: "3B", location: "Small Stage" },
         { time: "20:15", name: "", location: "" },
-        { time: "20:30", name: "Alterne (BE/DK/EE)", location: "Main Stage" },
-        { time: "21:00", name: "", location: "" },
-        { time: "21:30", name: "Afrikora (SN)", location: "Small Stage" },
-        { time: "22:00", name: "Rézeleje", location: "Main Stage" },
-        { time: "22:15", name: "", location: "" },
-        {
-          time: "23:00",
-          name: "Dance house with the bands",
-          location: "Ruin pub",
-        },
+        { time: "20:30", name: "BashElán", location: "Stage" },        { time: "21:30", name: "Stobos", location: "Small Stage" },        { time: "22:00", name: "Zajnal", location: "Stage" },
+        { time: "22:15", name: "", location: "" },        { time: "23:15", name: "Dance house hosted by Kaptza", location: "Ruin pub" },
       ],
     },
     {
-      day: "Friday, 29 August",
+      day: "Thursday, 27 August",
       schedule: [
-        { time: "18:30", name: "Budapest Folk Duo", location: "Small Stage" },
-        { time: "19:00", name: "Amaro Duho", location: "Main Stage" },
-        { time: "19:15", name: "", location: "" },
-        { time: "19:45", name: "Okos Viola", location: "Small Stage" },
+        { time: "18:30", name: "", location: "" },
+        { time: "18:45", name: "Okos Viola", location: "Small Stage" },
+        { time: "19:00", name: "", location: "" },
+        { time: "19:15", name: "Korinda", location: "Main Stage" },        { time: "19:45", name: "", location: "" },
+        { time: "20:00", name: "Durgesh Kanwal (IN)", location: "Small Stage" },
+        { time: "20:15", name: "", location: "" },
+        { time: "20:30", name: "Enara Navaira (BE)", location: "Main Stage" },        { time: "21:30", name: "Budapest Folk Duo", location: "Small Stage" },        { time: "22:00", name: "Rézeleje", location: "Main Stage" },
+        { time: "22:15", name: "", location: "" },        { time: "23:15", name: "Dance house hosted by Kaptza", location: "Ruin pub" },
+      ],
+    },
+    {
+      day: "Friday, 28 August",
+      schedule: [
+        { time: "18:30", name: "", location: "" },
+        { time: "18:45", name: "Lua Balagué (AR)", location: "Small Stage" },
+        { time: "19:00", name: "", location: "" },
+        { time: "19:15", name: "Puli", location: "Main Stage" },        { time: "19:45", name: "", location: "" },
+        { time: "20:00", name: "Duo Compass (EE/UK)", location: "Small Stage" },
+        { time: "20:15", name: "", location: "" },
+        { time: "20:30", name: "Jezve (PL/GR/HU)", location: "Main Stage" },        { time: "21:30", name: "Dil Mastana (IN)", location: "Small Stage" },        { time: "22:00", name: "", location: "" },
+        { time: "22:15", name: "Glencz", location: "Main Stage" },        { time: "23:15", name: "Dance house hosted by Kaptza", location: "Ruin pub" },
+      ],
+    },
+    {
+      day: "Saturday, 29 August",
+      schedule: [
+        { time: "18:30", name: "Regina Mänd (EE)", location: "Ruin pub" },
+        { time: "18:45", name: "", location: "" },
+        { time: "19:00", name: "Pontos (GR/HU)", location: "Main Stage" },
+        { time: "19:15", name: "", location: "" },        { time: "19:45", name: "Los Puros Criollos (CO)", location: "Ruin pub" },
         { time: "20:00", name: "", location: "" },
-        { time: "20:15", name: "Veja (HR)", location: "Main Stage" },
-        { time: "20:30", name: "", location: "" },
-        { time: "21:00", name: "", location: "" },
-        { time: "21:30", name: "Obadu", location: "Small Stage" },
-        { time: "22:00", name: "Zajnal", location: "Main Stage" },
-        { time: "22:15", name: "", location: "" },
-        {
-          time: "23:00",
-          name: "Dance house with the bands",
-          location: "Ruin pub",
-        },
+        { time: "20:15", name: "Góbé", location: "Main Stage" },
+        { time: "20:30", name: "", location: "" },        { time: "21:30", name: "Obadu", location: "Small Stage" },        { time: "22:00", name: "Veja (HR)", location: "Main Stage" },
+        { time: "22:15", name: "", location: "" },        { time: "23:15", name: "Dance house hosted by Kaptza", location: "Ruin pub" },
+      ],
+    },
+  ],
+  morningProgrammeHeading: "Morning programmes",
+  morningProgramme: [
+    {
+      day: "Wednesday, 26 August",
+      schedule: [
+        { time: "9:00", name: "Arrival" },
+        { time: "10:00", name: "" },
+        { time: "11:00", name: "Introduction, registration" },
+        { time: "12:00", name: "Course session: instrumental, singing, dance" },
+        { time: "14:30", name: "Course session" },
+        { time: "16:00", name: "" },
+        { time: "17:00", name: "Music masterclass" },
       ],
     },
     {
-      day: "Saturday, 30 August",
+      day: "Thursday, 27 August",
       schedule: [
-        { time: "18:30", name: "Roma Big Band", location: "Small Stage" },
-        { time: "19:00", name: "Puli", location: "Main Stage" },
-        { time: "19:15", name: "", location: "" },
-        { time: "19:45", name: "Akleja (DE)", location: "Small Stage" },
-        { time: "20:00", name: "Góbé", location: "Main Stage" },
-        { time: "20:15", name: "", location: "" },
-        { time: "20:30", name: "", location: "" },
-        { time: "21:00", name: "Akleja (DE)", location: "Small Stage" },
-        { time: "21:30", name: "", location: "" },
-        {
-          time: "22:00",
-          name: "Cimbalom Guachacha (CL)",
-          location: "Main Stage",
-        },
-        { time: "22:15", name: "", location: "" },
-        {
-          time: "23:00",
-          name: "Dance house with the bands",
-          location: "Ruin pub",
-        },
+        { time: "9:00", name: "Breakfast" },
+        { time: "10:00", name: "Course session" },
+        { time: "10:30", name: "Music industry workshops for artists" },
+        { time: "12:00", name: "Music industry seminar" },
+        { time: "14:00", name: "Course session / Mentoring session" },
+        { time: "16:00", name: "Round table" },
+        { time: "17:00", name: "Songlab session" },
+      ],
+    },
+    {
+      day: "Friday, 28 August",
+      schedule: [
+        { time: "9:00", name: "Breakfast" },
+        { time: "10:00", name: "Course session" },
+        { time: "10:30", name: "Music industry workshops for artists" },
+        { time: "12:00", name: "Music industry seminar" },
+        { time: "14:00", name: "Course session / Speed meeting, networking" },
+        { time: "16:00", name: "Round table" },
+        { time: "17:00", name: "Songlab session" },
+      ],
+    },
+    {
+      day: "Saturday, 29 August",
+      schedule: [
+        { time: "9:00", name: "Breakfast" },
+        { time: "10:00", name: "Course session" },
+        { time: "10:30", name: "" },
+        { time: "12:00", name: "Music industry seminar" },
+        { time: "14:00", name: "Course session" },
+        { time: "16:00", name: "Round table" },
+        { time: "17:00", name: "Songlab session" },
       ],
     },
   ],
@@ -570,10 +598,15 @@ export const en: LanguagePack = {
       logo: HagyomanyokHaza,
       url: "https://hagyomanyokhaza.hu/en",
     },
+    {
+      name: "Upbeat",
+      logo: UpbeatLogo,
+      url: "https://upbeat-platform.eu/",
+    },
   ],
   mapTitle: "Babel Camp",
   footer: {
-    copyright: "© 2024-2025, Góbé Kulturális Egyesület",
+    copyright: "© 2024-2026, Góbé Kulturális Egyesület",
     accommodation: {
       caption: "Accommodation",
       url: accommodationUrl,
