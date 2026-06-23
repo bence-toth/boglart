@@ -160,7 +160,7 @@ export const hu: LanguagePack = {
     {
       day: "Augusztus 29., szombat",
       schedule: [
-        { time: "18:30", name: "Regina Mänd (EE)", location: "Romkocsma" },
+        { time: "18:30", name: "Regina Mänd (EE)", location: "Kisszínpad" },
         { time: "18:45", name: "", location: "" },
         { time: "19:00", name: "Pontos (GR/HU)", location: "Nagyszínpad" },
         { time: "19:15", name: "", location: "" },        { time: "19:45", name: "Los Puros Criollos (CO)", location: "Romkocsma" },
@@ -429,7 +429,7 @@ export const en: LanguagePack = {
     {
       day: "Saturday, 29 August",
       schedule: [
-        { time: "18:30", name: "Regina Mänd (EE)", location: "Ruin pub" },
+        { time: "18:30", name: "Regina Mänd (EE)", location: "Small Stage" },
         { time: "18:45", name: "", location: "" },
         { time: "19:00", name: "Pontos (GR/HU)", location: "Main Stage" },
         { time: "19:15", name: "", location: "" },        { time: "19:45", name: "Los Puros Criollos (CO)", location: "Ruin pub" },
