@@ -25,7 +25,7 @@
 
 .schedule-wrapper table thead th {
   padding: 0.5em;
-  background-color: var(--color-turquoise-dark);
+  background-color: var(--color-blue-dark);
   color: var(--color-butter-light);
   text-align: center;
 }
@@ -37,7 +37,7 @@
 
 .schedule-wrapper table .header-row th {
   padding: 0.5em;
-  background-color: var(--color-turquoise-dark);
+  background-color: var(--color-blue-dark);
   color: var(--color-butter-light);
   text-align: center;
 }

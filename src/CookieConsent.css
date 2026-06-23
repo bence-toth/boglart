@@ -5,7 +5,7 @@
   right: 0;
   padding: 1em;
   background-color: var(--color-red-light);
-  color: var(--color-turquoise-dark);
+  color: var(--color-blue-dark);
   font-weight: bold;
   font-size: 16px;
   display: flex;
@@ -20,7 +20,7 @@
 
 .cookie-consent button {
   color: var(--color-red-light);
-  background-color: var(--color-turquoise-dark);
+  background-color: var(--color-blue-dark);
   padding: 0.5em 1em;
   font-family: var(--font-sans-serif);
   font-weight: bold;
@@ -36,7 +36,7 @@
 
 .cookie-consent button:is(:hover, :active, :focus) {
   color: var(--color-butter);
-  background-color: var(--color-turquoise);
+  background-color: var(--color-blue);
 }
 
 @media (width <= 768px) {
