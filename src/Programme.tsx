@@ -22,7 +22,10 @@ interface ScheduleTableProps {
   showLocation?: boolean;
 }
 
-const ScheduleTable = ({ schedule, showLocation = false }: ScheduleTableProps) => (
+const ScheduleTable = ({
+  schedule,
+  showLocation = false,
+}: ScheduleTableProps) => (
   <>
     <table className="desktop-schedule">
       <thead>
@@ -100,7 +103,10 @@ const Programme = ({ languagePack }: ProgrammeProps) => (
       <h2>{languagePack.programmeHeading}</h2>
       <ScheduleTable schedule={languagePack.programme} showLocation={true} />
       <h3>{languagePack.furtherProgrammeHeading}</h3>
-      <ScheduleTable schedule={languagePack.morningProgramme} showLocation={false} />
+      <ScheduleTable
+        schedule={languagePack.morningProgramme}
+        showLocation={false}
+      />
       {parseAnnotatedString(languagePack.furtherProgrammeText)}
     </div>
   </section>
